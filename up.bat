@@ -1,3 +1,4 @@
+set /p a=Message:
 git add .
-git commit -m "up"
+git commit -m "%a%"
 git push
