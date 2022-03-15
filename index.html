@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./favicon.ico" rel="icon">
+    <title>Hello Dao</title>
+    <script src="https://lib.baomitu.com/echarts/5.3.0/echarts.min.js"></script>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://unpkg.com/vue-i18n@9"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+<link rel="icon" href="favicon.ico"><script defer src="index.js"></script></head>
+
+<body>
+    <header>
+        <section class="content">
+            <h3><a href="/">Hello Dao</a></h3>
+            <ul>
+                <li><a href="#Hello">Hello</a></li>
+                <li><a href="#Story">Story</a></li>
+                <li><a href="#NFT">NFT</a></li>
+                <li><a href="#Roadmap">Roadmap</a></li>
+                <li><a href="#Sale">Sale</a></li>
+            </ul>
+        </section>
+    </header>
+    <main id="app">
+        <button class="button" @click="changeLanguage">
+            <svg t="1645258450434" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                p-id="6493" width="32" height="32">
+                <path
+                    d="M667.278222 577.422222l-96.711111 254.065778h40.078222l23.381334-66.872889h110.193777l23.381334 66.872889h43.406222l-96.711111-254.065778z m-19.911111 157.127111l43.406222-113.777777 43.406223 113.777777z m0 0"
+                    p-id="6494" fill="#ffffff"></path>
+                <path
+                    d="M954.424889 413.610667H643.896889V99.384889A44.231111 44.231111 0 0 0 600.490667 55.921778H66.275556A44.999111 44.999111 0 0 0 19.541333 99.384889v491.406222a44.231111 44.231111 0 0 0 43.406223 43.463111h313.856v310.897778a44.231111 44.231111 0 0 0 43.406222 43.463111h534.215111a44.231111 44.231111 0 0 0 43.406222-43.463111V457.073778a40.277333 40.277333 0 0 0-43.406222-43.463111z m-604.330667-36.778667v120.348444h-33.393778v-120.348444H223.203556v20.053333H189.952V226.417778h126.890667V162.901333h33.393777v60.16h126.862223v173.824h-33.393778v-20.053333z m604.330667 568.291556H420.209778V453.717333h534.215111c3.328 0 3.328 491.406222 0 491.406223z m0 0"
+                    p-id="6495" fill="#ffffff"></path>
+                <path
+                    d="M223.232 256.512h93.496889v86.812444H223.232z m126.890667 0h93.496889v86.812444h-93.525334z m0 0"
+                    p-id="6496" fill="#ffffff"></path>
+            </svg>
+        </button>
+        <section class="one" id="Hello">
+            <section class="content">
+                <div class="text">
+                    <p>{{ $t("p1")}}</p>
+                    <h1>{{ $t("h1")}}</h1>
+                    <p>{{ $t("d1")}}</p>
+                </div>
+                <img id="spaceman1" alt="pass">
+            </section>
+        </section>
+        <section class="two">
+            <section class="content">
+                <img id="spaceman2" alt="pass">
+                <div class="text">
+                    <p>{{ $t("p2")}}</p>
+                    <h1>{{ $t("h2")}}</h1>
+                    <p>{{ $t("d2")}}</p>
+                </div>
+
+            </section>
+        </section>
+        <section class="sale" id="sale">
+            <section class="content">
+                <!-- <h2 style="margin-bottom: 10px; font-size: 40px;">{{ $t("sale") }} {{ $t("tot") }} 10,000 DAO</h2>
+                <p class="address" style="margin: 20px;">0.006 BNB = 1 DAO</p>
+                <button @click="donate" :disabled="sealCount >= count || noweb3">{{ $t("sales") }} {{ price }}
+                    BNB</button>
+                <p class="address" style="margin-top: 10px;">{{ $t("not") }}</p>
+                <div class="progress" v-if="!noweb3">
+                    <span class="red" :style="{width: value}"><span>{{ value }}</span></span>
+                </div> -->
+                <p class="address" style="margin-top: 10px; font-size: 30px;">{{ $t("end") }}</p>
+                <section ref="box" style="height: 200px; overflow: hidden; margin-top: 50px;">
+                    <ul ref="dataList">
+                        <li v-for="(item, index) in allData" :key="index" style="padding: 5px 0; color: #FFF;"
+                            class="item">
+                            {{ item }}
+                        </li>
+                    </ul>
+                    <ul ref="dataList2"></ul>
+                </section>
+            </section>
+        </section>
+        <section class="three" id="Story">
+            <section class="content">
+                <div class="text">
+                    <p>{{ $t("p3")}}</p>
+                    <h1>{{ $t("h3")}}</h1>
+                    <p>{{ $t("d3")}}</p>
+                </div>
+            </section>
+
+        </section>
+        <section class="four" id="NFT">
+            <section class="content">
+                <div style="display: flex; justify-content: center; flex: 1;">
+                    <img class="pass" id="pass2" alt="pass">
+                </div>
+
+                <div class="text">
+                    <p>{{ $t("p4")}}</p>
+                    <h1>{{ $t("h4")}}</h1>
+                    <p>{{ $t("d4")}}</p>
+                </div>
+
+            </section>
+        </section>
+
+        <section class="five" id="Roadmap">
+            <section class="content">
+                <div v-for:="roadmap in roadmaps" :key="roadmap.title">
+                    <h3>{{$t(roadmap.title)}}</h3>
+                    <ul v-for:="item in roadmap.list" :key="item.content">
+                        <li :class="[{'active': item.active}]">{{ $t(item.content)}}</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+
+
+
+    </main>
+    <section class="six" id="Sale">
+        <section class="content">
+            <div id="canvas"></div>
+            <div id="canvas2"></div>
+        </section>
+    </section>
+    <footer>
+        <section class="content">
+            <a href="/">HELLO DAO</a>
+            <small>HELLO DAO © 2022</small>
+            <section>
+                <a class="link" href="https://twitter.com/hellodaoworld">
+                    <svg t="1645258300441" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="2778" width="32" height="32">
+                        <path
+                            d="M928 254.3c-30.6 13.2-63.9 22.7-98.2 26.4 35.4-21.1 62.3-54.4 75-94-32.7 19.5-69.7 33.8-108.2 41.2C765.4 194.6 721.1 174 672 174c-94.5 0-170.5 76.6-170.5 170.6 0 13.2 1.6 26.4 4.2 39.1-141.5-7.4-267.7-75-351.6-178.5-14.8 25.4-23.2 54.4-23.2 86.1 0 59.2 30.1 111.4 76 142.1-28-1.1-54.4-9-77.1-21.7v2.1c0 82.9 58.6 151.6 136.7 167.4-14.3 3.7-29.6 5.8-44.9 5.8-11.1 0-21.6-1.1-32.2-2.6C211 652 273.9 701.1 348.8 702.7c-58.6 45.9-132 72.9-211.7 72.9-14.3 0-27.5-0.5-41.2-2.1C171.5 822 261.2 850 357.8 850 671.4 850 843 590.2 843 364.7c0-7.4 0-14.8-0.5-22.2 33.2-24.3 62.3-54.4 85.5-88.2z"
+                            p-id="2779" fill="#ffffff"></path>
+                    </svg>
+                </a>
+                <a class="link" href="https://community.hellodao.world/">
+                    <svg t="1645258182561" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="1822" width="32" height="32">
+                        <path
+                            d="M606.4 428.8c-28.8 0-52.8 25.6-52.8 57.6s24 57.6 52.8 57.6c28.8 0 52.8-25.6 52.8-57.6s-24-57.6-52.8-57.6zM419.2 428.8c-28.8 0-52.8 25.6-52.8 57.6s24 57.6 52.8 57.6c28.8 0 52.8-25.6 52.8-57.6s-24-57.6-52.8-57.6z"
+                            p-id="1823" fill="#ffffff"></path>
+                        <path
+                            d="M854.4 0H169.6C110.4 0 64 46.4 64 105.6v692.8c0 57.6 46.4 105.6 105.6 105.6h580.8l-27.2-94.4 65.6 60.8 62.4 57.6 108.8 96V105.6C960 46.4 913.6 0 854.4 0zM657.6 668.8s-19.2-22.4-33.6-41.6c67.2-19.2 92.8-60.8 92.8-60.8-20.8 14.4-41.6 24-59.2 30.4-25.6 11.2-49.6 17.6-73.6 22.4-49.6 9.6-94.4 6.4-132.8 0-28.8-6.4-54.4-14.4-75.2-22.4-11.2-4.8-24-9.6-36.8-17.6-1.6-1.6-3.2-1.6-4.8-3.2-1.6 0-1.6-1.6-1.6-1.6-9.6-4.8-14.4-8-14.4-8s24 41.6 89.6 60.8c-16 19.2-33.6 43.2-33.6 43.2-113.6-3.2-156.8-78.4-156.8-78.4 0-164.8 73.6-299.2 73.6-299.2 73.6-56 144-54.4 144-54.4l4.8 6.4C347.2 272 304 312 304 312s11.2-6.4 30.4-14.4c54.4-24 97.6-30.4 116.8-32 3.2 0 6.4-1.6 8-1.6 32-4.8 67.2-4.8 104-1.6 48 6.4 100.8 19.2 153.6 49.6 0 0-40-38.4-128-65.6l6.4-8s70.4-1.6 144 54.4c0 0 73.6 134.4 73.6 299.2 1.6-1.6-41.6 73.6-155.2 76.8z"
+                            p-id="1824" fill="#ffffff"></path>
+                    </svg>
+                </a>
+                <a class="link" href="https://t.me/+sSzAmJ0kD9M4MWRl">
+                    <svg t="1645258338909" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="3845" width="32" height="32">
+                        <path
+                            d="M957.4 197.2l-135.2 637.6c-10.2 45-36.8 56.2-74.6 35l-206-151.8-99.4 95.6c-11 11-20.2 20.2-41.4 20.2l14.8-209.8 381.8-345c16.6-14.8-3.6-23-25.8-8.2L299.6 568 96.4 504.4c-44.2-13.8-45-44.2 9.2-65.4L900.4 132.8c36.8-13.8 69 8.2 57 64.4z"
+                            p-id="3846" fill="#ffffff"></path>
+                    </svg>
+                </a>
+                <a class="link" href="https://community.hellodao.world/">
+                    <svg t="1645258382448" class="icon" viewBox="0 0 1475 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="4703" width="32" height="32">
+                        <path
+                            d="M1341.277619 298.011508c-6.233039 14.453423-17.374218 26.287162-31.436194 33.423539L677.985966 652.391363a67.840752 67.840752 0 0 1-59.831147 0.752783L165.160465 437.637592a67.690196 67.690196 0 0 1-15.687986-10.328175 187.503047 187.503047 0 0 0-40.349138 58.084693 123.576763 123.576763 0 0 0 53.056105 158.987648l6.142705 3.161687 392.289979 190.002284a129.177465 129.177465 0 0 1 53.296996-50.075087c48.569522-24.691264 105.178761-16.109544 142.908216 17.253773l-2.469127-4.637139 457.661605-232.459214c-2.469126-48.147964 23.66748-95.934593 70.400213-119.662295 62.932611-31.948086 139.355083-8.13005 170.731055 53.206662 31.315749 61.336712 5.721146 136.976291-57.211465 168.924377-52.393657 26.618387-114.151927 14.543757-151.459824-25.654825l-448.778773 227.942519c10.68951 53.688443-15.808431 110.598794-68.202088 137.18707-62.932611 31.978198-139.385194 8.160162-170.731054-53.176551a121.619529 121.619529 0 0 1-12.887635-44.504497l-4.607029 9.003278-409.513641-198.313003C29.087513 673.890829-14.031864 555.7341 31.406083 453.205133a275.849593 275.849593 0 0 1 116.952278-128.334348l15.176094-8.130051L772.746218 7.347156a67.840752 67.840752 0 0 1 57.452355-1.8669l475.66816 203.973927a67.32886 67.32886 0 0 1 35.410886 88.557325z m-639.563951 587.290739a48.900747 48.900747 0 0 0-66.425521-21.017686c-24.480485 12.646745-34.417213 42.547263-22.222138 66.786857a48.900747 48.900747 0 0 0 66.39541 21.047797c24.480485-12.646745 34.447324-42.547263 22.28236-66.816968z m693.523395-363.262689a48.900747 48.900747 0 0 0-66.39541-21.047797c-24.480485 12.646745-34.447324 42.547263-22.252248 66.816969a48.900747 48.900747 0 0 0 66.425521 21.017685c24.480485-12.646745 34.417213-42.547263 22.222137-66.786857z"
+                            p-id="4704" fill="#ffffff"></path>
+                    </svg>
+                </a>
+            </section>
+        </section>
+    </footer>
+    <script type="text/javascript">
+        const Address = "0x70ee92275d1baf261c361deb9560747272d07ead"
+        const privateSaleAbi = [
+            {
+                "inputs": [],
+                "name": "donate",
+                "outputs": [],
+                "stateMutability": "payable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "bool",
+                        "name": "b",
+                        "type": "bool"
+                    }
+                ],
+                "name": "onClaim",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "stateMutability": "nonpayable",
+                "type": "constructor"
+            },
+            {
+                "anonymous": false,
+                "inputs": [
+                    {
+                        "indexed": true,
+                        "internalType": "address",
+                        "name": "previousOwner",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": true,
+                        "internalType": "address",
+                        "name": "newOwner",
+                        "type": "address"
+                    }
+                ],
+                "name": "OwnershipTransferred",
+                "type": "event"
+            },
+            {
+                "inputs": [],
+                "name": "renounceOwnership",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "aumont",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "setAccount",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "aumont",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "setAumontMax",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "aumont",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "setPrice",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "newOwner",
+                        "type": "address"
+                    }
+                ],
+                "name": "transferOwnership",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "_aumontMax",
+                "outputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "_count",
+                "outputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "_nowAumont",
+                "outputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "_price",
+                "outputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "",
+                        "type": "address"
+                    }
+                ],
+                "name": "_sealCount",
+                "outputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "_start",
+                "outputs": [
+                    {
+                        "internalType": "bool",
+                        "name": "",
+                        "type": "bool"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "getAllData",
+                "outputs": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "aumont",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "user",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct PrivateSale.SealStruct[]",
+                        "name": "",
+                        "type": "tuple[]"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "owner",
+                "outputs": [
+                    {
+                        "internalType": "address",
+                        "name": "",
+                        "type": "address"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            }
+        ]
+        const locales = {
+            en: {
+                not: "$DAO release will start in early June",
+                end: "The seed round is over",
+                tot: "Total",
+                sale: "Seed Round",
+                sales: "Per Serving",
+                title: 'Hello Dao',
+                p1: 'Interactive NFT design, all game data is on the chain. ',
+                h1: 'Creation NFT free minting',
+                d1: 'Dont buy pictures! Dont buy pictures! Dont buy pictures! Data is king! ',
+                p2: 'Use your avatar to log in to Mars in advance and create a new home for mankind! ',
+                h2: 'Hello planet game is coming soon',
+                d2: 'will be launched on the BSC mainnet soon.',
+                p3: '',
+                h3: 'Story Background',
+                d3: `In 2065, human beings began to migrate to Mars on a large scale, and human beings entered the era of interstellar economy. Therefore, early entry into the Martian city, land development, agriculture and business became the largest capital fast lane. A large number of businessmen and practitioners began to book interstellar ships Tickets to the New World to live. However, the tickets to the New World are so rare that the few spacecraft in the world, even if they carry passengers every day, can only transport a few passengers to Mars. Most people eventually Will stay on the earth forever. So human beings began to study and explore the use of virtual reality equipment to remotely control robots or other species on Mars, so as to carry out interstellar migration spiritually and ideologically. The birth of the new world and the transformation of the old world , gradually formed a sharp contrast. But war and plundering will always be the theme of human survival. The struggle for the right to develop resources on Mars, the replacement of the dominance of Earth's species, and the convergence of the old and new worlds in the next few hundred years, for the benefit of mankind. Destiny opens a new chapter. `,
+                p4: '',
+                h4: 'Hello NFT',
+                d4: 'Unique NFT design concept, born to empower data for NFT. Every NFT has a practical purpose and can be interacted inside and outside the game.',
+                roadmap: [{
+                    title: 'Introduction',
+                    list: [{
+                        content: 'Initial website and Dapp launched √',
+                        active: 'true'
+                    },
+                    {
+                        content: 'The first batch of community volunteers to join √',
+                        active: 'true'
+                    },
+                    {
+                        content: 'Launch on BSC network √',
+                        active: 'true'
+                    }
+                    ]
+                }, {
+                    title: 'Machine Pioneer',
+                    list: [{
+                        content: 'Quantity: 10000.',
+                        active: 'true'
+                    }, {
+                        content: 'Phased release through the official website.',
+                        active: 'true'
+                    }, {
+                        content: 'Resource preparation: Prepare to open the cabin, and get $Hello rewards through ticket pledge and character pledge.',
+                        active: 'true'
+                    }]
+                }, {
+                    title: 'Ape dwellers',
+                    list: [{
+                        content: 'hunter: ROBOT.',
+                        active: 'true'
+                    }, {
+                        content: 'Catch condition: Purchase props.',
+                        active: 'true'
+                    }, {
+                        content: 'Successful capture: there is a certain probability that ROBOT will be destroyed due to energy exhaustion, thus obtaining a brand new APE NFT.',
+                        active: 'true'
+                    }]
+                }, {
+                    title: 'War Dogs',
+                    list: [{
+                        content: 'Quantity: 10000.',
+                        active: 'true'
+                    }, {
+                        content: 'Print boarding pass: get avatar and spaceship seat.',
+                        active: 'true'
+                    }, {
+                        content: 'Resource preparation: Prepare to open the cabin, and get $Hello rewards through ticket pledge and character pledge.',
+                        active: 'true'
+                    }]
+                }, {
+                    title: 'Bear class',
+                    list: [{
+                        content: 'Capture tools: APE, $Hello.',
+                        active: 'true'
+                    }, {
+                        content: 'Capture condition: Consume a certain amount of $Hello and stake APE NFT.',
+                        active: 'true'
+                    }, {
+                        content: 'Captured successfully: Get a brand new Bear NFT after successful capture. ',
+                        active: 'true'
+                    }]
+                }, {
+                    title: 'New Humans',
+                    list: [{
+                        content: 'Breeding tools: DOG, $Hello.',
+                        active: 'true'
+                    }, {
+                        content: 'Cultivation conditions: Consume a certain amount of $Hello and stake DOG NFT. ',
+                        active: 'true'
+                    }, {
+                        content: 'Breeding success: By extracting (destroying) the DOG gene and injecting it into a new human embryo, a brand new HUMAN NFT is obtained.',
+                        active: 'true'
+                    }]
+                }, {
+                    title: 'Mars City',
+                    list: [{
+                        content: 'Mars Login: By burning $Hello and mortgaging the boat ticket, you will get Mars city land. ',
+                        active: ''
+                    }, {
+                        content: 'Mars Exploration: Start character exploration, explore Mars according to the character type, collect seeds and various mysterious minerals.',
+                        active: ''
+                    }, {
+                        content: 'Mars Survival: Open a Mars farm and run a farm by growing Mars plants and crops.',
+                        active: ''
+                    }, {
+                        content: 'Mars Construction: Open Mars home, upgrade from Mars agriculture to Mars industry, will unlock more technologies and have more buildings.',
+                        active: ''
+                    }, {
+                        content: 'Mars War: Open a Mars guild, expand your own territory and guild through resource plunder, and even unify the entire Mars.',
+                        active: ''
+                    }, {
+                        content: 'Interstellar Expansion',
+                        active: ''
+                    }, {
+                        content: 'Stay tuned...',
+                        active: ''
+                    }]
+                }]
+            },
+            zh: {
+                not: "将于6月初启动$DAO释放",
+                end: "种子轮已结束",
+                tot: "总额度",
+                sales: "每份",
+                sale: "种子轮",
+                title: 'Hello Dao',
+                p1: '交互式NFT设计, 游戏数据全部上链。',
+                h1: '创世NFT免费铸造',
+                d1: '不要买图片! 不要买图片! 不要买图片! 数据为王! ',
+                p2: '用你的虚拟角色提前登录火星, 打造人类新家园! ',
+                h2: 'Hello星球游戏即将发布',
+                d2: '我們曾經仰望星空, 思考我們在宇宙中的位置, 而現在我們只會低著頭, 擔心如何在這片土地上活下去。  -- 《星际穿越》',
+                p3: '',
+                h3: '故事背景',
+                d3: '2065年人类开始了大规模的火星移民, 人类进入星际经济时代。因此提早进入火星城市, 进行土地开发、农业及经商成为了最大的资本快车道。大批商人、从业者开始预定星际船票, 去往新世界生活。然而通往新世界的门票是如此难得, 全世界仅有的几艘飞船即便每日不停的载客, 也仅能运送少数乘客去达火星。大部分人终将留在地球终老。于是人类开始研究和探索通过虚拟现实设备, 远程操控火星上的机器人或其他物种, 从而在精神和思想上进行着“星际移民”。新世界的诞生, 和旧世界的变革, 逐渐形成了鲜明的反差。但是战争和掠夺永远都是人类生存的主题。火星资源的开发权争夺, 地球物种的统治权替换, 新旧世界在这之后的几百年里汇流交集, 为人类的命运开启了新的篇章。',
+                p4: '',
+                h4: 'Hello NFT',
+                d4: '独特的NFT设计理念, 为NFT赋能数据而生! 每一张NFT都有实际用途, 游戏内外均可交互!  ',
+                roadmap: [{
+                    title: '先导篇',
+                    list: [{
+                        content: '初版网站及Dapp上线 √',
+                        active: 'true'
+                    },
+                    {
+                        content: '首批社区志愿者加入 √',
+                        active: 'true'
+                    },
+                    {
+                        content: '在BSC网络上启动 √',
+                        active: 'true'
+                    }
+                    ]
+                }, {
+                    title: '机器先锋',
+                    list: [{
+                        content: '数量: 10000',
+                        active: 'true'
+                    }, {
+                        content: '通过官网阶段性释放。',
+                        active: 'true'
+                    }, {
+                        content: '资源准备: 预备开启船舱, 通过质押获得$Hello的奖励。',
+                        active: 'true'
+                    }]
+                }, {
+                    title: '猿住民',
+                    list: [{
+                        content: '猎人: ROBOT',
+                        active: 'true'
+                    }, {
+                        content: '捕捉条件: 购买道具。',
+                        active: 'true'
+                    }, {
+                        content: '捕捉成功: 捕捉成功后ROBOT 有一定概率会因能量耗尽而被销毁, 从而获得全新的 APE NFT。',
+                        active: 'true'
+                    }]
+                }, {
+                    title: '战狗',
+                    list: [{
+                        content: '数量: 10000。',
+                        active: 'true'
+                    }, {
+                        content: '打印登机牌: 获得虚拟角色和飞船座位。',
+                        active: 'true'
+                    }, {
+                        content: '资源准备: 预备开启船舱, 通过船票质押、角色质押获得$Hello的奖励。',
+                        active: 'true'
+                    }]
+                }, {
+                    title: '类熊',
+                    list: [{
+                        content: '捕捉工具: APE、$Hello。',
+                        active: 'true'
+                    }, {
+                        content: '捕捉条件: 消耗一定数量的$Hello并质押APE NFT。',
+                        active: 'true'
+                    }, {
+                        content: '捕捉成功: 捕捉成功后获得全新的 Bear NFT。',
+                        active: 'true'
+                    }]
+                }, {
+                    title: '新人类',
+                    list: [{
+                        content: '培育工具: DOG、$Hello。',
+                        active: 'true'
+                    }, {
+                        content: '培育条件: 消耗一定数量的$Hello并质押DOG NFT。',
+                        active: 'true'
+                    }, {
+                        content: '培育成功: 通过提取(销毁)DOG基因注入到新人类胚胎, 从而获得全新的 HUMAN NFT。',
+                        active: 'true'
+                    }]
+                }, {
+                    title: '火星城市',
+                    list: [{
+                        content: '火星登录: 通过燃烧$Hello及抵押船票的方式, 将获得火星城市土地。',
+                        active: ''
+                    }, {
+                        content: '火星探索: 开启角色探险, 根据角色类型进行火星探索, 收集种子及各种神秘矿产。',
+                        active: ''
+                    }, {
+                        content: '火星生存: 开启火星农场, 通过种植火星植物及农作物经营农场。',
+                        active: ''
+                    }, {
+                        content: '火星建设: 开启火星家园, 从火星农业升级到火星工业, 将解锁更多科技, 拥有更多建筑。',
+                        active: ''
+                    }, {
+                        content: '火星战争: 开启火星公会, 通过资源掠夺来扩大自己的领土和公会, 甚至统一整个火星。',
+                        active: ''
+                    }, {
+                        content: '星际扩张篇',
+                        active: ''
+                    }, {
+                        content: '敬请期待...',
+                        active: ''
+                    }]
+                }]
+            }
+        }
+        const i18n = VueI18n.createI18n({
+            locale: 'en',
+            messages: locales
+        })
+        const web3 = new Web3(Web3.givenProvider)
+        const contract = new web3.eth.Contract(privateSaleAbi, Address)
+        const sss = `0xac01ae3384c5a69524226d3ccf92095b7225a5db,0x6B7d1798ebbe7BD79133a2FC6636AB38bCcE2Fec,0x38afaa72fcdc31d5a13e3b65a6a61e4730f2e194,0xfdF74630fEE6137357c57440Bb94A3f77Bb0f3e3,0x701484126d2B9785915004AbB4D4f6cce0559FE9,0x68b0f1d93917952d35bc0ee4138aee3179b669d6,0x840a276727a13ae158da999012d60f3b51523d55,0x36f2c448003b6771a6962b5e709c2edbbafd19db,0x03a99892566d9d64ecc6a8168bfb4f8f1b40a43b,0xf17a607cfac93a3078ef0096b25048b3d1354ddd,0x3767abb9430316f5bb0bef1c9e42002a20155278,0x85c751877f5b12f260adacb883b1f50b8d6cf44c,0xdf1c52063bb13462b693c17d39a524b1c726bf4b,0x6b9499ff0746a95f051222a96d4e748a7a6bf3ee,0x1a179606627b17545c595bc6eaa526e17911ff55,0x9a5f21b9d30052e8a08ff3ed27b285ed927a43ee,0xd79d8b339c4327067aa143c31ee8f2525e19386d,0x75967771b42742ac0d383d8c0dbb8f7178578998,0x9a5f21b9d30052e8a08ff3ed27b285ed927a43ee,0x854f5c4973b42818d28d3cf009566884d3b7892c,0x03e1fbebbb63c03ae8160de9bed4f9789fcb9c52,0x306f1717e4773921d4ce3408ef79871eb2e3de92,0x306f1717e4773921d4ce3408ef79871eb2e3de92,0x6c939869cae44445c45f943eac89f964d5578b88,0x9e0a23bb4823d81f6b52e4ef34fb309943bdb317,0x3767abb9430316f5bb0bef1c9e42002a20155278,0x5546092bd4af029a50cb9d266c1104b657fdb124,0x0e21af8338f8ea20880cb831d8813c20b8806843,0xb91be2795f5aea1b1888e0d4a10ca3ae045f73b8,0xdae9e4f5a931b07b83ccd3f66838918931e8dba0,0xec2d09be09b3a53ddd719bb2cb26173a3fecbd08,0xc255b2324d572913ed95c5907cbcdb24af713d70,0x86944a54db88ebf12d789097efaefe0a45c4a8eb,0x3d762900fdb82b8ae14880963591352f7782df43,0xadb988c2f0a7baa314122d757f8ace37957b0f0d,0x3d762900fdb82b8ae14880963591352f7782df43,0xe64085129573169fcaafa05983a3b47d2c525a1e,0x3d762900fdb82b8ae14880963591352f7782df43,0xadb988c2f0a7baa314122d757f8ace37957b0f0d,0xe64085129573169fcaafa05983a3b47d2c525a1e,0xadb988c2f0a7baa314122d757f8ace37957b0f0d,0x3d762900fdb82b8ae14880963591352f7782df43,0xdae9e4f5a931b07b83ccd3f66838918931e8dba0,0x8f10f442b90b5c73097e99456a3e9605b3a79f70,0xc6370b5352cd76d57991cffb0bb06db691063dfd,0x0109892e6d22f3c889bc1ebbabfca106a7c0fa25,0xd98776119228ad45d37f2562c7c196f7fc5ff42c,0x0109892e6d22f3c889bc1ebbabfca106a7c0fa25,0xd98776119228ad45d37f2562c7c196f7fc5ff42c,0x0109892e6d22f3c889bc1ebbabfca106a7c0fa25,0xd98776119228ad45d37f2562c7c196f7fc5ff42c,0xe32e23655ab9e3706bad958a3ce9f47e67409584,0xb59d1082c67ec19652885ed1b3107e1a442c9632,0x7eb9ba3e73f19a7fc97b8c551be6844579a8dc63,0x59045b4408b587760276c1f187d81e7f66632b10,0x7580a7ed2195882be3e021786c0e8c3066cf4ec5,0x89379aa9f858e672e61278f2be370d00950c4800,0x03a92f5a5060b83ebd11054c03973a28558f1a9e,0x86944a54db88ebf12d789097efaefe0a45c4a8eb,0x03a92f5a5060b83ebd11054c03973a28558f1a9e,0x86944a54db88ebf12d789097efaefe0a45c4a8eb,0xa4570b2c09e86cb17640ecde89ee6b03185273d6,0x82ddc9b236309a5f26cb0872ed004e82ea4ea0e2,0xd64cc57fa99d507535b0a043471b30ccacf76889,0x86e2b121b7f9161bc2cf25ec717e14b106addfbc,0xd64cc57fa99d507535b0a043471b30ccacf76889,0xddeae61bf5fd05594542dcdc973f5eb85c74a6e9,0xd64cc57fa99d507535b0a043471b30ccacf76889,0x47e257fd78a50685881ae4c516aeb878493f4ce2,0xddeae61bf5fd05594542dcdc973f5eb85c74a6e9,0x47e257fd78a50685881ae4c516aeb878493f4ce2,0x7eb9ba3e73f19a7fc97b8c551be6844579a8dc63,0x7c9ae1e971ff8915e094aef6544008b9ef42491e,0x86944a54db88ebf12d789097efaefe0a45c4a8eb,0x7c9ae1e971ff8915e094aef6544008b9ef42491e,0x3b8c5022b2ce239d6b646beb222d3b56bab1429f,0x7580a7ed2195882be3e021786c0e8c3066cf4ec5,0xdb879ec83669a0e619e19db905321401bf828782,0x839b8be9c3b31119b952f9480daefdf93ea3c8a6,0x1c8819730cd98ff5ff1d29bbe21a60c208c52188,0x844f8aec6a118b217d7ba0bc8f3805dd02a4547e,0xa6d8bdd2f1eacea10b47395b48939673afa231c9,0x40d3753dad6ee55422482f92f3f3b8c52ddbd06f,0xa6d8bdd2f1eacea10b47395b48939673afa231c9,0x95c6970c2921d39474973d120ab700c25fa41068,0x2aaba63e478661e52f29efab93812e69abcc1d1b,0xf62b5332e2766855e94091f1790e921bacdd5af6,0x2aaba63e478661e52f29efab93812e69abcc1d1b,0xec8e694fcab6bdac81fad257ec89fb0829e284c9,0x19bebc5aee0b7738359efed8753ec02316e9c637,0x89379aa9f858e672e61278f2be370d00950c4800,0xbfb51e1e690497f5a243b1eb5dd1c0dee557769b,0x89379aa9f858e672e61278f2be370d00950c4800,0x7eb9ba3e73f19a7fc97b8c551be6844579a8dc63,0xd8129043d96d00bc4086b7b69902fc1a0e224465,0xc75f416942b6ef8757b72b97a868531d5310e3e8,0x39ca97beb340f8c352ddfe7db0d3e0d1e1b3674d,0xb57a09d29570498cb5910f5ffa4d6b0dfdac24a2,0xd0d77fb8a8cbe77bf3bb810615a2e0901e77a3fc,0x2049ebe44406075fe8a5432cdae2bc08b0d386c7,0xd0d77fb8a8cbe77bf3bb810615a2e0901e77a3fc,0x86e2b121b7f9161bc2cf25ec717e14b106addfbc,0xf232e219eca3bc643a88ad519c3bf291d6d0807a,0xf23db478d2dbaa0ac16bd5834277b73de896eafd,0x3cd7fafdbf362ac61a39a488f8fd744bb2f2959d,0xc8e40692189202f04fbed0790d229f65c66bc0e8`
+        const all = [...new Set(sss.split(","))]
+        const app = Vue.createApp({
+            data() {
+                return {
+                    roadmaps: [
+                        {
+                            title: 'roadmap[0].title',
+                            list: [{
+                                content: 'roadmap[0].list[0].content',
+                                active: 'roadmap[0].list[0].active'
+                            },
+                            {
+                                content: 'roadmap[0].list[1].content',
+                                active: 'roadmap[0].list[1].active'
+                            }, {
+                                content: 'roadmap[0].list[2].content',
+                                active: 'roadmap[0].list[2].active'
+                            }
+                            ]
+                        },
+                        {
+                            title: 'roadmap[1].title',
+                            list: [{
+                                content: 'roadmap[1].list[0].content',
+                                active: 'roadmap[1].list[0].active'
+                            },
+                            {
+                                content: 'roadmap[1].list[1].content',
+                                active: 'roadmap[1].list[1].active'
+                            }, {
+                                content: 'roadmap[1].list[2].content',
+                                active: 'roadmap[1].list[2].active'
+                            }
+                            ]
+                        },
+                        {
+                            title: 'roadmap[2].title',
+                            list: [{
+                                content: 'roadmap[2].list[0].content',
+                                active: 'roadmap[2].list[0].active'
+                            },
+                            {
+                                content: 'roadmap[2].list[1].content',
+                                active: 'roadmap[2].list[1].active'
+                            }, {
+                                content: 'roadmap[2].list[2].content',
+                                active: 'roadmap[2].list[2].active'
+                            }
+                            ]
+                        },
+                        {
+                            title: 'roadmap[3].title',
+                            list: [{
+                                content: 'roadmap[3].list[0].content',
+                                active: 'roadmap[3].list[0].active'
+                            },
+                            {
+                                content: 'roadmap[3].list[1].content',
+                                active: 'roadmap[3].list[1].active'
+                            }, {
+                                content: 'roadmap[3].list[2].content',
+                                active: 'roadmap[3].list[2].active'
+                            }
+                            ]
+                        },
+                        {
+                            title: 'roadmap[4].title',
+                            list: [{
+                                content: 'roadmap[4].list[0].content',
+                                active: 'roadmap[4].list[0].active'
+                            },
+                            {
+                                content: 'roadmap[4].list[1].content',
+                                active: 'roadmap[4].list[1].active'
+                            }, {
+                                content: 'roadmap[4].list[2].content',
+                                active: 'roadmap[4].list[2].active'
+                            }
+                            ]
+                        },
+                        {
+                            title: 'roadmap[5].title',
+                            list: [{
+                                content: 'roadmap[5].list[0].content',
+                                active: 'roadmap[5].list[0].active'
+                            },
+                            {
+                                content: 'roadmap[5].list[1].content',
+                                active: 'roadmap[5].list[1].active'
+                            }, {
+                                content: 'roadmap[5].list[2].content',
+                                active: 'roadmap[5].list[2].active'
+                            }
+                            ]
+                        },
+                        {
+                            title: 'roadmap[6].title',
+                            list: [{
+                                content: 'roadmap[6].list[0].content',
+                                active: 'roadmap[6].list[0].active'
+                            },
+                            {
+                                content: 'roadmap[6].list[1].content',
+                                active: 'roadmap[6].list[1].active'
+                            }, {
+                                content: 'roadmap[6].list[2].content',
+                                active: 'roadmap[6].list[2].active'
+                            },
+                            {
+                                content: 'roadmap[6].list[3].content',
+                                active: 'roadmap[6].list[3].active'
+                            },
+                            {
+                                content: 'roadmap[6].list[4].content',
+                                active: 'roadmap[6].list[4].active'
+                            }, {
+                                content: 'roadmap[6].list[5].content',
+                                active: 'roadmap[6].list[5].active'
+                            }, {
+                                content: 'roadmap[6].list[6].content',
+                                active: 'roadmap[6].list[6].active'
+                            }
+                            ]
+                        }
+                    ],
+                    address: '',
+                    price: 0.25,
+                    ethereum: window.ethereum,
+                    noweb3: typeof window.ethereum === "undefined",
+                    allData: all,
+                    inter: null, inter2: null,
+                    count: 5,
+                    sealCount: 5,
+                    aumontMax: 100000000000000000000,
+                    nowAumont: 0,
+                    messages: false,
+                    passimg: './img/en.png',
+                    value: '0%'
+                }
+            },
+            watch: {
+                nowAumont: function () {
+                    this.value = Number(this.nowAumont / this.aumontMax).toFixed(2) * 100 + '%'
+                },
+                messages: function (val) {
+                    this.passimg = val ? './img/zh.png' : './img/en.png'
+                }
+            },
+            methods: {
+                changeLanguage() {
+                    if (this.messages) {
+                        this.$i18n.locale = 'en'
+                        this.messages = false
+                    } else {
+                        this.$i18n.locale = 'zh'
+                        this.messages = true
+                    }
+                },
+                connectMetaMask() {
+                    if (this.address === '') return
+                    this.ethereum.request({ method: 'eth_requestAccounts' })
+                },
+                _aumontMax() {
+                    if (this.address === '') return
+                    contract.methods._aumontMax().call((err, result) => {
+                        this.aumontMax = result
+                    })
+                },
+                _count() {
+                    if (this.address === '') return
+                    contract.methods._count().call({ account: this.address }, (err, result) => {
+                        this.count = result
+                    })
+                },
+                _sealCount() {
+                    if (this.address === '') return
+                    contract.methods._sealCount(this.address).call({ account: this.address }, (err, result) => {
+                        this.sealCount = Number(result)
+                    })
+                },
+                _nowAumont() {
+                    if (this.address === '') return
+                    contract.methods._nowAumont().call((err, result) => {
+                        this.nowAumont = Number(result)
+                    })
+                },
+                _price() {
+                    if (this.address === '') return
+                    contract.methods._price().call((err, result) => {
+                        this.price = Number(web3.utils.fromWei(result, 'ether'))
+                    })
+                },
+                _start() {
+                    if (this.address === '') return
+                },
+                getAllData() {
+                    if (this.address === '') return
+                    contract.methods.getAllData().call((err, result) => {
+                        if (typeof result !== "undefined" && result instanceof Array && result.length > 0) {
+                            this.allData = [...all, ...result.map(item => {
+                                return {
+                                    user: item.user,
+                                    aumont: web3.utils.fromWei(item.aumont, 'ether')
+                                }
+                            })].filter(item => item?.user.length > 0)
+                            this.autoScroll()
+                        }
+                    })
+                },
+                donate() {
+                    if (this.address === '') return
+                    contract.methods.donate().send({ from: this.address, value: web3.utils.toWei(String(this.price), 'ether') }, (err, result) => {
+                        Toastify({
+                            text: 'Wait ...',
+                            duration: 3000,
+                            gravity: "bottom",
+                            position: "center",
+                        }).showToast()
+                    }).then(() => {
+                        Toastify({
+                            text: 'Success',
+                            duration: 3000,
+                            gravity: "bottom",
+                            position: "center",
+                        }).showToast()
+                        this.getAllData()
+                    })
+                },
+                connent() {
+                    if (typeof this.ethereum === "undefined") {
+                        return
+                    }
+                    this.ethereum.request({ method: 'eth_requestAccounts' }).then(result => {
+                        if (result.length > 0) {
+                            this.address = result[0]
+                            this._count()
+                            this._nowAumont()
+                            this._price()
+                            this.getAllData()
+                            this._aumontMax()
+                            this._sealCount()
+                        }
+                    });
+                },
+                accountsChanged() {
+                    if (typeof this.ethereum === "undefined") {
+                        Toastify({
+                            text: 'Connect MetaMask',
+                            duration: 3000,
+                            gravity: "bottom",
+                            position: "center",
+                        }).showToast()
+                        return
+                    }
+                    this.ethereum.on('accountsChanged', accounts => {
+                        if (accounts.length > 0) {
+                            // this.address = accounts[0]
+                            this._count()
+                            this._price()
+                            this._nowAumont()
+                            this.getAllData()
+                            this._aumontMax()
+                            this._sealCount()
+                        }
+                    });
+                },
+                autoScroll() {
+                    this.$nextTick(() => {
+                        this.$refs.dataList2.innerHTML = this.$refs.dataList.innerHTML
+                        if (this.inter) {
+                            clearInterval(this.inter)
+                        }
+                        this.inter = setInterval(() => {
+                            if (this.$refs.box.scrollTop >= this.$refs.dataList.scrollHeight) {
+                                this.$refs.box.scrollTop = 0
+                            } else {
+                                this.$refs.box.scrollTop++
+                            }
+                        }, 50);
+                        if (this.inter2) {
+                            clearInterval(this.inter2)
+                        }
+                        this.inter2 = setInterval(() => {
+                            this._nowAumont()
+                            this.getAllData()
+                            this._aumontMax()
+                        }, 1000);
+                    })
+
+                }
+            },
+            created() {
+                // this.connent()
+            },
+            mounted() {
+                this.autoScroll()
+            }
+        })
+        app.use(i18n)
+        app.mount('#app')
+    </script>
+</body>
+
+</html>
