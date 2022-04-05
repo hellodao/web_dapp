@@ -1016,7 +1016,7 @@
         },
         {
             "account": "0x649C8F63CADeb3D91bdBfc88c8e3b5152647C502",
-            "amount": 4000,
+            "amount": 400,
             "nftCount": 4,
             "proof": [
                 "0x634cee4356deccfc84950d3b00dcb7bfc143063624772ca36cb3dc5d1d790393",
