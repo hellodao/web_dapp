@@ -2,953 +2,1028 @@
     "data": [
         {
             "account": "0x840a276727a13ae158da999012d60f3b51523d55",
-            "amount": 5,
+            "amount": 417,
+            "nftCount": 4,
             "proof": [
-                "0xe984678a70979ad00f14a45961cb9e8fff1017b0e2cf5a1d0d64ab4d9a2fc1b9",
-                "0x2d4665f0900e45a0c7d18977ee5d228a8a7aa07729a17be35ca4974193556c90",
-                "0x75d9fa2d4cef1bd6f2d85f6e007f46386fd2b3d1f9d707267c981d07ac3135a7",
-                "0xb11ea100805473e254f1021db989fec79f841fea42bc59fae76702857bb9b12c",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x5327095a55af37043a5052b86f822275797ce73c4b203704a79b740d61848a16",
+                "0xe6abf3e9dda2b7d63a108ce010e20a24132a2b7647bdd14e658b2e61b368e362",
+                "0x166d749e242e5f9aa5d2a51d9eb37d50b7b3d6e54d655e3b98b5273cac7a215b",
+                "0x93d78d7d5e597b401cd67e36e87a0d47377763fb051c1324f6f6306d8a6d7afa",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xfdF74630fEE6137357c57440Bb94A3f77Bb0f3e3",
-            "amount": 4,
+            "amount": 384,
+            "nftCount": 4,
             "proof": [
-                "0xaa4bd32ffa95739565107db4e49d6bcf04c245dcf2ff26ccdf493e5dd9a3e555",
-                "0x2d4665f0900e45a0c7d18977ee5d228a8a7aa07729a17be35ca4974193556c90",
-                "0x75d9fa2d4cef1bd6f2d85f6e007f46386fd2b3d1f9d707267c981d07ac3135a7",
-                "0xb11ea100805473e254f1021db989fec79f841fea42bc59fae76702857bb9b12c",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x62327f3a2ebb867d10b5a9c399aedcee6ffe846f7f5007c220b34d1931a72c3e",
+                "0xe6abf3e9dda2b7d63a108ce010e20a24132a2b7647bdd14e658b2e61b368e362",
+                "0x166d749e242e5f9aa5d2a51d9eb37d50b7b3d6e54d655e3b98b5273cac7a215b",
+                "0x93d78d7d5e597b401cd67e36e87a0d47377763fb051c1324f6f6306d8a6d7afa",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x6B7d1798ebbe7BD79133a2FC6636AB38bCcE2Fec",
-            "amount": 3,
+            "amount": 200,
+            "nftCount": 3,
             "proof": [
-                "0x1e13ded8b33cdfa4d47a722384a3e5afd4fb2ad8a05815e5ff4dceeb88a7447a",
-                "0x39a306844845ee7b780ee38055212571c8f5ccc5387dffaa28b7092efc06eb28",
-                "0x75d9fa2d4cef1bd6f2d85f6e007f46386fd2b3d1f9d707267c981d07ac3135a7",
-                "0xb11ea100805473e254f1021db989fec79f841fea42bc59fae76702857bb9b12c",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xa39231ede68d177e48a65cf166623b4209f95b16b6256c119c46a53fc70aaeef",
+                "0x3b4b397c9dc5e7849dc3b445732195270793751f3cb12043e4e6beca93073ef9",
+                "0x166d749e242e5f9aa5d2a51d9eb37d50b7b3d6e54d655e3b98b5273cac7a215b",
+                "0x93d78d7d5e597b401cd67e36e87a0d47377763fb051c1324f6f6306d8a6d7afa",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xac01ae3384c5a69524226d3ccf92095b7225a5db",
-            "amount": 3,
+            "amount": 200,
+            "nftCount": 3,
             "proof": [
-                "0x40e0f6ef9aac388ef15dff57e21c0600f45fcc8954ed4588e7a4d2f7c6c06d3f",
-                "0x39a306844845ee7b780ee38055212571c8f5ccc5387dffaa28b7092efc06eb28",
-                "0x75d9fa2d4cef1bd6f2d85f6e007f46386fd2b3d1f9d707267c981d07ac3135a7",
-                "0xb11ea100805473e254f1021db989fec79f841fea42bc59fae76702857bb9b12c",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xbe08b095a0d146d86c56aa92e45ef7d76158aae9a0698de4f3c8f63d50c02ae6",
+                "0x3b4b397c9dc5e7849dc3b445732195270793751f3cb12043e4e6beca93073ef9",
+                "0x166d749e242e5f9aa5d2a51d9eb37d50b7b3d6e54d655e3b98b5273cac7a215b",
+                "0x93d78d7d5e597b401cd67e36e87a0d47377763fb051c1324f6f6306d8a6d7afa",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x03a99892566d9d64ecc6a8168bfb4f8f1b40a43b",
-            "amount": 3,
+            "amount": 167,
+            "nftCount": 3,
             "proof": [
-                "0x0d7f6184c584cc53e2f3935b9e3bb248ba4b42fccb900deeae1790c3a0b93813",
-                "0x55faa1b2fce4604c51da737c943093793749e4bed158a5336e2c400fdb765a8b",
-                "0x0c8f930c86b43ac2cc5bc123d1769bb229d56518f23fc814b0a011faddc9f005",
-                "0xb11ea100805473e254f1021db989fec79f841fea42bc59fae76702857bb9b12c",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xfe9ccc4ea872738c49462ce1cde323c3bed69e78fe4dde525251c938515ce6c5",
+                "0xe94019cea805915384de5cb8b987dee79debbe1bd8461a1cbd6a32dd8097c692",
+                "0x19e7d6282d2bf8b305864d7d09859be3a62b9fa894195b88e0256be1c4f34443",
+                "0x93d78d7d5e597b401cd67e36e87a0d47377763fb051c1324f6f6306d8a6d7afa",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x3767abb9430316f5bb0bef1c9e42002a20155278",
-            "amount": 3,
+            "amount": 149,
+            "nftCount": 3,
             "proof": [
-                "0xb3019da8703a7dd352aa938621315a3e5f2098f46c59e9e4b8e24f335bd82baa",
-                "0x55faa1b2fce4604c51da737c943093793749e4bed158a5336e2c400fdb765a8b",
-                "0x0c8f930c86b43ac2cc5bc123d1769bb229d56518f23fc814b0a011faddc9f005",
-                "0xb11ea100805473e254f1021db989fec79f841fea42bc59fae76702857bb9b12c",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x1c2927e7bf593b1ac7a10679a3b45c624bd6a73c4b8942563aad697f9fe1b2cf",
+                "0xe94019cea805915384de5cb8b987dee79debbe1bd8461a1cbd6a32dd8097c692",
+                "0x19e7d6282d2bf8b305864d7d09859be3a62b9fa894195b88e0256be1c4f34443",
+                "0x93d78d7d5e597b401cd67e36e87a0d47377763fb051c1324f6f6306d8a6d7afa",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x6b9499ff0746a95f051222a96d4e748a7a6bf3ee",
-            "amount": 2,
+            "amount": 109,
+            "nftCount": 2,
             "proof": [
-                "0x1102f40fb1a720383f73830a5d3d32a2784c75526acf2d8f9f1c4ff31524bdce",
-                "0x2e28d80e3980363b89d810d800aa8de1adb603763dc43a79ca5af6951b20d8b8",
-                "0x0c8f930c86b43ac2cc5bc123d1769bb229d56518f23fc814b0a011faddc9f005",
-                "0xb11ea100805473e254f1021db989fec79f841fea42bc59fae76702857bb9b12c",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x20468cfc30163c60891f8d714641774b81f276af0ea772abcdd1a37c9827acee",
+                "0x6c2e87e06e90c9b890b5f667ab4bfb07e270a8108b27b580a6345f64a7dba76d",
+                "0x19e7d6282d2bf8b305864d7d09859be3a62b9fa894195b88e0256be1c4f34443",
+                "0x93d78d7d5e597b401cd67e36e87a0d47377763fb051c1324f6f6306d8a6d7afa",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xdae9e4f5a931b07b83ccd3f66838918931e8dba0",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xaca25385ec6eabe096a5899ceb18c5d2df0c4878c49d805d3c06690ab1c12f57",
-                "0x2e28d80e3980363b89d810d800aa8de1adb603763dc43a79ca5af6951b20d8b8",
-                "0x0c8f930c86b43ac2cc5bc123d1769bb229d56518f23fc814b0a011faddc9f005",
-                "0xb11ea100805473e254f1021db989fec79f841fea42bc59fae76702857bb9b12c",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xb78a5df34e60fc8776eac51a9751f37cae63f4d7eaeb1a7618569d12fb0c8068",
+                "0x6c2e87e06e90c9b890b5f667ab4bfb07e270a8108b27b580a6345f64a7dba76d",
+                "0x19e7d6282d2bf8b305864d7d09859be3a62b9fa894195b88e0256be1c4f34443",
+                "0x93d78d7d5e597b401cd67e36e87a0d47377763fb051c1324f6f6306d8a6d7afa",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xa4570b2c09e86cb17640ecde89ee6b03185273d6",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x3b61615ea97efc2a18f95dcbdb90c7e51bdc82ad130824e4757be41e7e630765",
-                "0xc34298f70259b674274d8bc2713eff7a551f8967b9a771b100b926f09087fcda",
-                "0xfc15d18e2a3816f7d547379ab58a040d63ee665a034cd28c145e8553a10f3967",
-                "0xb5780c6cedaa9a6ff02441d7f725d9729a92c7365125d0c9444532745af650c6",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x1613bfbe900cd2eb54d5d1b9635f3b0c5bd9404f2b7fe532243390c3bca72e63",
+                "0x0e172c49a486895ce0f1822fbb968f2585b175fa0d392680e2978b123966eaa2",
+                "0xf9e41e4155cc80af00af0ebf4d3a5066cfd668916901a99a1051023b05dd0c57",
+                "0x70d6fe224acdd406ddbb1b9f6ad93862d7c686c7c0df976258e60e89ec13f331",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x7c9ae1e971ff8915e094aef6544008b9ef42491e",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x6c682d137f30ee41ed5570564efd676b99c5de416aa052af53e2d7296eaef2be",
-                "0xc34298f70259b674274d8bc2713eff7a551f8967b9a771b100b926f09087fcda",
-                "0xfc15d18e2a3816f7d547379ab58a040d63ee665a034cd28c145e8553a10f3967",
-                "0xb5780c6cedaa9a6ff02441d7f725d9729a92c7365125d0c9444532745af650c6",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xe2a51453ab3c1e1e944fa116387197b45ce6beadf8f45e659541e93411d14423",
+                "0x0e172c49a486895ce0f1822fbb968f2585b175fa0d392680e2978b123966eaa2",
+                "0xf9e41e4155cc80af00af0ebf4d3a5066cfd668916901a99a1051023b05dd0c57",
+                "0x70d6fe224acdd406ddbb1b9f6ad93862d7c686c7c0df976258e60e89ec13f331",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x39ca97beb340f8c352ddfe7db0d3e0d1e1b3674d",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xd4842676fe5988f9c382b4bda4289d76590c248d421fa10c066b0637620d624c",
-                "0x2ede87ee5de2a42134e6434376d03d05a531c2f956c02c665d6385b4fcdc00f5",
-                "0xfc15d18e2a3816f7d547379ab58a040d63ee665a034cd28c145e8553a10f3967",
-                "0xb5780c6cedaa9a6ff02441d7f725d9729a92c7365125d0c9444532745af650c6",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x57e202523aaddfd5cbeef4846bea02d94bcc1abbc8caeaa9502d74994558f2a5",
+                "0x2550f84df3cfbf40c2c06c49a38b02bf1f8b0eb5960dc1dbf4e1584e268cdc47",
+                "0xf9e41e4155cc80af00af0ebf4d3a5066cfd668916901a99a1051023b05dd0c57",
+                "0x70d6fe224acdd406ddbb1b9f6ad93862d7c686c7c0df976258e60e89ec13f331",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x86944a54db88ebf12d789097efaefe0a45c4a8eb",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x25335e93289c4cf32804f821fbdb88861e86dcd6e8cdb236289d90014613b292",
-                "0x2ede87ee5de2a42134e6434376d03d05a531c2f956c02c665d6385b4fcdc00f5",
-                "0xfc15d18e2a3816f7d547379ab58a040d63ee665a034cd28c145e8553a10f3967",
-                "0xb5780c6cedaa9a6ff02441d7f725d9729a92c7365125d0c9444532745af650c6",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x61cab945e8c71252b65b8da8814ecb946b9388adc93df70011dab60f17371f9e",
+                "0x2550f84df3cfbf40c2c06c49a38b02bf1f8b0eb5960dc1dbf4e1584e268cdc47",
+                "0xf9e41e4155cc80af00af0ebf4d3a5066cfd668916901a99a1051023b05dd0c57",
+                "0x70d6fe224acdd406ddbb1b9f6ad93862d7c686c7c0df976258e60e89ec13f331",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x59045b4408b587760276c1f187d81e7f66632b10",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xad6e8d4a22ac1122abf11aba60e66088b095d8f7d6ac7370d469c123b1684595",
-                "0xb8914942d5c43c314d4f152515e9318eb969697dca909b34a0cf126894090af6",
-                "0x0c7d460f78435fd04345f292b00d81a7ac847e3e36c6c3f2c0df65585e252f8c",
-                "0xb5780c6cedaa9a6ff02441d7f725d9729a92c7365125d0c9444532745af650c6",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xc4ffed1c8d6f25f113a44fa2fd2b88ed5a24b64c5f1edec6b7b0e61db2ca6bc1",
+                "0xe36a7ef7edc684573bd73295830feb3146fdc0a35b0ab5be5310e12d7c182014",
+                "0x9dce0e014bf84631fa20cc27f1ae9dfcd03ae4678d306036bd1e86461a8353b6",
+                "0x70d6fe224acdd406ddbb1b9f6ad93862d7c686c7c0df976258e60e89ec13f331",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xd64cc57fa99d507535b0a043471b30ccacf76889",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x4ceb8f210d09925b864ba971f036bddc417cf454811a5d6ee0598d69f938ba5e",
-                "0xb8914942d5c43c314d4f152515e9318eb969697dca909b34a0cf126894090af6",
-                "0x0c7d460f78435fd04345f292b00d81a7ac847e3e36c6c3f2c0df65585e252f8c",
-                "0xb5780c6cedaa9a6ff02441d7f725d9729a92c7365125d0c9444532745af650c6",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x53ed8c8c0b0d884807f9d609183cfa3be8535b3af977750997eefc482a167274",
+                "0xe36a7ef7edc684573bd73295830feb3146fdc0a35b0ab5be5310e12d7c182014",
+                "0x9dce0e014bf84631fa20cc27f1ae9dfcd03ae4678d306036bd1e86461a8353b6",
+                "0x70d6fe224acdd406ddbb1b9f6ad93862d7c686c7c0df976258e60e89ec13f331",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x839b8be9c3b31119b952f9480daefdf93ea3c8a6",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xc74bb9c067170fbe4bd5eca41d697f1d8080396856a1319171c8f097736e3fc4",
-                "0x44f0205e25a9ad4f77b60d5ac6481a4f89c94df32ba5038f42e3b3cc7b47244e",
-                "0x0c7d460f78435fd04345f292b00d81a7ac847e3e36c6c3f2c0df65585e252f8c",
-                "0xb5780c6cedaa9a6ff02441d7f725d9729a92c7365125d0c9444532745af650c6",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x4305492a953bbbe6026fcf7bb4c99ee05a9c07d8fd13b00dd6d71a18c3c7bb89",
+                "0x2f4b8d3b9b1f3a79d1f734f38988299de0b31dacc055679752c25a95e0dd6ad7",
+                "0x9dce0e014bf84631fa20cc27f1ae9dfcd03ae4678d306036bd1e86461a8353b6",
+                "0x70d6fe224acdd406ddbb1b9f6ad93862d7c686c7c0df976258e60e89ec13f331",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xbfb51e1e690497f5a243b1eb5dd1c0dee557769b",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x884b92dd8d034e01bb501b57240ccdff68b466e1d4b04c078d189c139fcac4e9",
-                "0x44f0205e25a9ad4f77b60d5ac6481a4f89c94df32ba5038f42e3b3cc7b47244e",
-                "0x0c7d460f78435fd04345f292b00d81a7ac847e3e36c6c3f2c0df65585e252f8c",
-                "0xb5780c6cedaa9a6ff02441d7f725d9729a92c7365125d0c9444532745af650c6",
-                "0x874ebf4013f940ff625fcbefde4d0a636851efa752e00b3546c2e88ce550ae70",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x0a0a4a67724acc3c600b0f644b0fb5ced2d431ecbfd8e38582c0ec5ac9f9e5e2",
+                "0x2f4b8d3b9b1f3a79d1f734f38988299de0b31dacc055679752c25a95e0dd6ad7",
+                "0x9dce0e014bf84631fa20cc27f1ae9dfcd03ae4678d306036bd1e86461a8353b6",
+                "0x70d6fe224acdd406ddbb1b9f6ad93862d7c686c7c0df976258e60e89ec13f331",
+                "0xc2d58f4396e4d28b1de8a0e60d84ad1661d6cddc4d7d7c9cc9c94113e6d8e4ea",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xb59d1082c67ec19652885ed1b3107e1a442c9632",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x3986483ed773619a40e278c4d259704698c160de6935ade9639ba83f4906df06",
-                "0x1da6763d389eccc0b9bba369fc091f32898e4045caae088449027ab60d023fe0",
-                "0x907f5a87d8925a60bc069a99af7076eb3a792c229ee13f95e3e3df8fba3b25ee",
-                "0x17150bb17cbb72cfce6a42dc61ab4c85401d1e8d11751c2cad4440faa205f4ee",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x14d7c134c96be67351b2fb6f47aa68dce5a38d0c8d951b0ac9ae2e29e8dded62",
+                "0x2020a893ba5701e3f0b1dbe0f370fecb35df3bab2625db8a7d55271b76544bd7",
+                "0x01b921e90d02eaf722b44ff1bc77090df11662d0ebd7e876602bbec73e7862b9",
+                "0x499f9876066d41acc3f702fdbf349b45fb147a044b98a6fbb031c323fc8d17b7",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x0109892e6d22f3c889bc1ebbabfca106a7c0fa25",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xee87781d959a16e917ad47b3858d4973b9b1e426d78b9934941b6d70a13cffe5",
-                "0x1da6763d389eccc0b9bba369fc091f32898e4045caae088449027ab60d023fe0",
-                "0x907f5a87d8925a60bc069a99af7076eb3a792c229ee13f95e3e3df8fba3b25ee",
-                "0x17150bb17cbb72cfce6a42dc61ab4c85401d1e8d11751c2cad4440faa205f4ee",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xed8179db3695a7ec28c3dcf9aee42c53b4da86f907d860ea53ddfbc8cadec25a",
+                "0x2020a893ba5701e3f0b1dbe0f370fecb35df3bab2625db8a7d55271b76544bd7",
+                "0x01b921e90d02eaf722b44ff1bc77090df11662d0ebd7e876602bbec73e7862b9",
+                "0x499f9876066d41acc3f702fdbf349b45fb147a044b98a6fbb031c323fc8d17b7",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x844f8aec6a118b217d7ba0bc8f3805dd02a4547e",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xbbc7a9edca093c0ee8ade3bc370f89f06c22533b9fa67da9e8860928c927a46f",
-                "0x4215655f801edb09bf8f8268a0ae24f56ca992837244c6424fa56ec3708ba360",
-                "0x907f5a87d8925a60bc069a99af7076eb3a792c229ee13f95e3e3df8fba3b25ee",
-                "0x17150bb17cbb72cfce6a42dc61ab4c85401d1e8d11751c2cad4440faa205f4ee",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x606e77b10469f6c1fee59b5d68dcc550cf971f7bdf134638f2aea3fda6c1d6fa",
+                "0xe49477d03b528610dd746c626132895aea9f307171c1935f5037d6ad37c1f74f",
+                "0x01b921e90d02eaf722b44ff1bc77090df11662d0ebd7e876602bbec73e7862b9",
+                "0x499f9876066d41acc3f702fdbf349b45fb147a044b98a6fbb031c323fc8d17b7",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xd0d77fb8a8cbe77bf3bb810615a2e0901e77a3fc",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x884e34c395f532b7cec8de4a543f67cda968a390790f93cd39b618ba2c85867d",
-                "0x4215655f801edb09bf8f8268a0ae24f56ca992837244c6424fa56ec3708ba360",
-                "0x907f5a87d8925a60bc069a99af7076eb3a792c229ee13f95e3e3df8fba3b25ee",
-                "0x17150bb17cbb72cfce6a42dc61ab4c85401d1e8d11751c2cad4440faa205f4ee",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x66f78c4cf7382791838e23d89e356b9555c2f2fd863bffd7fe17c2432c325018",
+                "0xe49477d03b528610dd746c626132895aea9f307171c1935f5037d6ad37c1f74f",
+                "0x01b921e90d02eaf722b44ff1bc77090df11662d0ebd7e876602bbec73e7862b9",
+                "0x499f9876066d41acc3f702fdbf349b45fb147a044b98a6fbb031c323fc8d17b7",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x2aaba63e478661e52f29efab93812e69abcc1d1b",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x05d13eec2183f31e4ff156f2a75b2000b0b58d98aea264f6242e4b2ee5c7d17c",
-                "0x99178728eeff46b15b7d83a103e47e1921c2cd63f3a5671cb70c72df74f10bb7",
-                "0xf594aa1cd360e169a58432f3de051b27710868207afca5516b72837c0e435dd1",
-                "0x17150bb17cbb72cfce6a42dc61ab4c85401d1e8d11751c2cad4440faa205f4ee",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x7faa0588724346c85ff49a9761f12121f696bc9cfc5d194fc9f7c1f41f9bcf4d",
+                "0x6a3b54d613d529d23e3a7869586ad5ba6b48320545deef8ab49f0499ec40a6ab",
+                "0x526aed3b61c07e2a331df80ff0c05237a0a282d4a36c65804ad284f6ae21c9c1",
+                "0x499f9876066d41acc3f702fdbf349b45fb147a044b98a6fbb031c323fc8d17b7",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x306f1717e4773921d4ce3408ef79871eb2e3de92",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xd7b40c51a8db80d0431ed5fdca7ca856823a9a3c98914b71a86fe56ef1298e37",
-                "0x99178728eeff46b15b7d83a103e47e1921c2cd63f3a5671cb70c72df74f10bb7",
-                "0xf594aa1cd360e169a58432f3de051b27710868207afca5516b72837c0e435dd1",
-                "0x17150bb17cbb72cfce6a42dc61ab4c85401d1e8d11751c2cad4440faa205f4ee",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x85a3d2a8635187b1d6203865a6c81b44602b6cef3694a3a8d11e4674dfca9994",
+                "0x6a3b54d613d529d23e3a7869586ad5ba6b48320545deef8ab49f0499ec40a6ab",
+                "0x526aed3b61c07e2a331df80ff0c05237a0a282d4a36c65804ad284f6ae21c9c1",
+                "0x499f9876066d41acc3f702fdbf349b45fb147a044b98a6fbb031c323fc8d17b7",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xadb988c2f0a7baa314122d757f8ace37957b0f0d",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x9e10cbba8e05dde6f277c5772a7bf5697e171f1e604bed61405f02a7a5f6375a",
-                "0x1d29bc59c0e165e7a641ba94a3b1307860014585d017a0d742fc6cdfd8597de8",
-                "0xf594aa1cd360e169a58432f3de051b27710868207afca5516b72837c0e435dd1",
-                "0x17150bb17cbb72cfce6a42dc61ab4c85401d1e8d11751c2cad4440faa205f4ee",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x8cd6c86d44a33bad3ba0ca819237fe1376514370bfbed2fce0bdbb0921b6d462",
+                "0xe770d886ce9aa1124316a94669dc6d069a96c81e76819e95404f3bc6ff7ef5a6",
+                "0x526aed3b61c07e2a331df80ff0c05237a0a282d4a36c65804ad284f6ae21c9c1",
+                "0x499f9876066d41acc3f702fdbf349b45fb147a044b98a6fbb031c323fc8d17b7",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x47e257fd78a50685881ae4c516aeb878493f4ce2",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xc98235830f91355d44c3617087ee458a0a216d2d911445b50135d04f7225f384",
-                "0x1d29bc59c0e165e7a641ba94a3b1307860014585d017a0d742fc6cdfd8597de8",
-                "0xf594aa1cd360e169a58432f3de051b27710868207afca5516b72837c0e435dd1",
-                "0x17150bb17cbb72cfce6a42dc61ab4c85401d1e8d11751c2cad4440faa205f4ee",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x9eb926fc06dec6c5f537fd98bb09b5a8fd1b7c420dd7eb0d4015911161b64058",
+                "0xe770d886ce9aa1124316a94669dc6d069a96c81e76819e95404f3bc6ff7ef5a6",
+                "0x526aed3b61c07e2a331df80ff0c05237a0a282d4a36c65804ad284f6ae21c9c1",
+                "0x499f9876066d41acc3f702fdbf349b45fb147a044b98a6fbb031c323fc8d17b7",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xd98776119228ad45d37f2562c7c196f7fc5ff42c",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xe8b73231e240b1211889796ddf9d61e4f1f32b4169fc9def2c1b0ca64dca993d",
-                "0x1e1855767db0e64f9d8c567af58c2557f5377e1d03119801e826fd9a10d8fe3f",
-                "0x32e2b755b9cd998784eb4e1e0b1ae82a374a87ca319af48a66bf295d5b35c68c",
-                "0x756c50f7609c223c5978ee4f93b4385e5fb5a14025201b22953de5cdb26276c3",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x829e4b29a1530ac5b6fe5f8326b9afcedf204b7236416a9a7e3f719207da4bbf",
+                "0x500ac00a194f07fda6b77d196591a245ec8010708cd0b5e604ed84fbe21343d7",
+                "0x2823831f170ae2d80485d00cacbc1affcfa12b94e51887cd649aff30f5d55957",
+                "0x37604f3c6f555eb3373fdca5999a8d068a589244bd34d628b81201741b7a2114",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x1a179606627b17545c595bc6eaa526e17911ff55",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xd9bdfaf01ccc55d7077b71f654376b01e3dabe0731e8ec548065fd8dd55be07b",
-                "0x1e1855767db0e64f9d8c567af58c2557f5377e1d03119801e826fd9a10d8fe3f",
-                "0x32e2b755b9cd998784eb4e1e0b1ae82a374a87ca319af48a66bf295d5b35c68c",
-                "0x756c50f7609c223c5978ee4f93b4385e5fb5a14025201b22953de5cdb26276c3",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x6a7720020aebed962348003a353e2fef101c46861e0afa2304836ddbf6f967d9",
+                "0x500ac00a194f07fda6b77d196591a245ec8010708cd0b5e604ed84fbe21343d7",
+                "0x2823831f170ae2d80485d00cacbc1affcfa12b94e51887cd649aff30f5d55957",
+                "0x37604f3c6f555eb3373fdca5999a8d068a589244bd34d628b81201741b7a2114",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xe32e23655ab9e3706bad958a3ce9f47e67409584",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xf0fac37d218f5188f6843cce2f4a80159422a23f8b3c768e98fa8a432fd88b0f",
-                "0x24998c882bcfc4ca12af6636aff558f1b9c494f79a662d5fe04cea9dddef99d6",
-                "0x32e2b755b9cd998784eb4e1e0b1ae82a374a87ca319af48a66bf295d5b35c68c",
-                "0x756c50f7609c223c5978ee4f93b4385e5fb5a14025201b22953de5cdb26276c3",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xb3725247e69d39f12c8a27f82ef53534aeba4e45fb2b6d47babd659ddcc6068c",
+                "0xe1feace83cd3cadb86f965f2eb6defc47e81d801d91fcb8ccea918d5276adc63",
+                "0x2823831f170ae2d80485d00cacbc1affcfa12b94e51887cd649aff30f5d55957",
+                "0x37604f3c6f555eb3373fdca5999a8d068a589244bd34d628b81201741b7a2114",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xb57a09d29570498cb5910f5ffa4d6b0dfdac24a2",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x1e90b405f196dcbe58052ad0c0518cc40957f9f010d56f8bb0f08948cd39642e",
-                "0x24998c882bcfc4ca12af6636aff558f1b9c494f79a662d5fe04cea9dddef99d6",
-                "0x32e2b755b9cd998784eb4e1e0b1ae82a374a87ca319af48a66bf295d5b35c68c",
-                "0x756c50f7609c223c5978ee4f93b4385e5fb5a14025201b22953de5cdb26276c3",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x06b008aadaeed86b1ed4178fff551af1a9807fe4c2ae4e099ad655aeea8f58dd",
+                "0xe1feace83cd3cadb86f965f2eb6defc47e81d801d91fcb8ccea918d5276adc63",
+                "0x2823831f170ae2d80485d00cacbc1affcfa12b94e51887cd649aff30f5d55957",
+                "0x37604f3c6f555eb3373fdca5999a8d068a589244bd34d628b81201741b7a2114",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x3b8c5022b2ce239d6b646beb222d3b56bab1429f",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x29abed43d28b1d2324d9194aaec6e6c4b5725e626337d44c58a9f4053f5d69f4",
-                "0xdf5465e447c177ed48e747cf69f7b74142fa8ecce63de00315fd73ad2629cd03",
-                "0x2a484e15a983696d6fb563fa5e1fd18a3bd74198d80d853e76f2145daedf8cbf",
-                "0x756c50f7609c223c5978ee4f93b4385e5fb5a14025201b22953de5cdb26276c3",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x3e78a1e556591f2f81148198026868a49fa68ba1b9a7b6ce0352cf2f9fac3aaf",
+                "0x753b75fc32f5b69d9b34c1c945966181772d1bf1a9c1c49790306ae046fd65fa",
+                "0x7fac2dd81d8861830d194f98e465837a0175858a6fe9e2dfdb42f5b602f2cc84",
+                "0x37604f3c6f555eb3373fdca5999a8d068a589244bd34d628b81201741b7a2114",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x40d3753dad6ee55422482f92f3f3b8c52ddbd06f",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x45fd2c2b57e4e43375449ae35544b06c395456b948a9d4c6f53b1336d1e8e3b5",
-                "0xdf5465e447c177ed48e747cf69f7b74142fa8ecce63de00315fd73ad2629cd03",
-                "0x2a484e15a983696d6fb563fa5e1fd18a3bd74198d80d853e76f2145daedf8cbf",
-                "0x756c50f7609c223c5978ee4f93b4385e5fb5a14025201b22953de5cdb26276c3",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x99a1c16534dc5f73e136b457016bd32930510ac88335cd94fc426458b3b37005",
+                "0x753b75fc32f5b69d9b34c1c945966181772d1bf1a9c1c49790306ae046fd65fa",
+                "0x7fac2dd81d8861830d194f98e465837a0175858a6fe9e2dfdb42f5b602f2cc84",
+                "0x37604f3c6f555eb3373fdca5999a8d068a589244bd34d628b81201741b7a2114",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x03a92f5a5060b83ebd11054c03973a28558f1a9e",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x2d07ecbdd84b8194ed31e024496c3ae6323b404a7de5599538d5a9cf94b1644e",
-                "0x01685a6ebf3ba29bb8e370acda94cc885c315f571b94a9dd0d982b92ed279b12",
-                "0x2a484e15a983696d6fb563fa5e1fd18a3bd74198d80d853e76f2145daedf8cbf",
-                "0x756c50f7609c223c5978ee4f93b4385e5fb5a14025201b22953de5cdb26276c3",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x2d18d99741b2de64ed88dc9d9f6479539c875b58a6646845abb18fe6367c2f6f",
+                "0xce2621403d3c825e00262abf57d790fd0223b4040daec657fa2af84d9f2cdbc1",
+                "0x7fac2dd81d8861830d194f98e465837a0175858a6fe9e2dfdb42f5b602f2cc84",
+                "0x37604f3c6f555eb3373fdca5999a8d068a589244bd34d628b81201741b7a2114",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x19bebc5aee0b7738359efed8753ec02316e9c637",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x91c69f9acd237de39688242d6ba9e6456b51e22d35fcb57909b9e9849b32c538",
-                "0x01685a6ebf3ba29bb8e370acda94cc885c315f571b94a9dd0d982b92ed279b12",
-                "0x2a484e15a983696d6fb563fa5e1fd18a3bd74198d80d853e76f2145daedf8cbf",
-                "0x756c50f7609c223c5978ee4f93b4385e5fb5a14025201b22953de5cdb26276c3",
-                "0xc7ddb2b949dfec5638ad6939b383913f7c20823e68a9693277906c78a0c674fb",
-                "0x88bb6cb4f243fa7019aeffb3348a6e5182de65f181eb1445243a60816e34a814",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x28a08fcd8fd37a554bf800fff92b9ba40a44f259988668fa8e9e8a4f2b6f80d3",
+                "0xce2621403d3c825e00262abf57d790fd0223b4040daec657fa2af84d9f2cdbc1",
+                "0x7fac2dd81d8861830d194f98e465837a0175858a6fe9e2dfdb42f5b602f2cc84",
+                "0x37604f3c6f555eb3373fdca5999a8d068a589244bd34d628b81201741b7a2114",
+                "0x658e6237b89a5a1a69833057eb0b5835bdf4658de2933c7b876880ff472fdb8b",
+                "0x3659c6877cb1fd232b802e776469e43b6b7132ec8d63129e45b52ed08c438483",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x1c8819730cd98ff5ff1d29bbe21a60c208c52188",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xca05f027864ab6519dcb1fd780a697c16b20a1367887a4657188139dcf7e73fc",
-                "0xc86714f0db69f2a837ba8f4730300ef64a22f0fbe6e9129c67aa9e4dfeb43435",
-                "0x43b67a38769da0b26eec6db5408c5fe22fe6efee304feedda4c586879aec37cd",
-                "0x35749e461b1d22746cd1bb17a77b75e3296a8464f38ac40e9c9a66b7f647d454",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x12d32fb03b57aa1c7ec5311f94a0d208138677659bc676f6d3ebde123d64a935",
+                "0x56252cfa05307dca3a8a498b9a54d8e56e94cd147d79164d122cadf10d75e565",
+                "0xee72f13dc403100c2fc8965c74708bf57b0508c4b422500801c6b9297eed29d8",
+                "0xd47a88a8cc4e97a290bd98e516883cbe586ddce56e06343044d268c898054f20",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xd8129043d96d00bc4086b7b69902fc1a0e224465",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x2228827725f86003aa1711c00612c688fbc06312f80d9b8b215b2387295d48fc",
-                "0xc86714f0db69f2a837ba8f4730300ef64a22f0fbe6e9129c67aa9e4dfeb43435",
-                "0x43b67a38769da0b26eec6db5408c5fe22fe6efee304feedda4c586879aec37cd",
-                "0x35749e461b1d22746cd1bb17a77b75e3296a8464f38ac40e9c9a66b7f647d454",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x0bc3d06a6b2f9595ce8295e933402bf5685fd72aec69aef9d710c17aa60f5215",
+                "0x56252cfa05307dca3a8a498b9a54d8e56e94cd147d79164d122cadf10d75e565",
+                "0xee72f13dc403100c2fc8965c74708bf57b0508c4b422500801c6b9297eed29d8",
+                "0xd47a88a8cc4e97a290bd98e516883cbe586ddce56e06343044d268c898054f20",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x3d762900fdb82b8ae14880963591352f7782df43",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x2caa4c2b5a0f2cfb77e43c9bbaf2926bcc0bde9e69fa0de4c0586e2ea708e68e",
-                "0x197a4d10b4b6bd679dc54af6ae8dd1dc560c8bf3b4e3b994f78154d06e123c68",
-                "0x43b67a38769da0b26eec6db5408c5fe22fe6efee304feedda4c586879aec37cd",
-                "0x35749e461b1d22746cd1bb17a77b75e3296a8464f38ac40e9c9a66b7f647d454",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x53559b2ac66edc494fff62c5b985e1bb0e250769681c94856d0948488d3f8de0",
+                "0x1eb7cd86b842f3c976acdfc4392f975125c20a8626065b1a71ccf1d89587c01b",
+                "0xee72f13dc403100c2fc8965c74708bf57b0508c4b422500801c6b9297eed29d8",
+                "0xd47a88a8cc4e97a290bd98e516883cbe586ddce56e06343044d268c898054f20",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xc75f416942b6ef8757b72b97a868531d5310e3e8",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0x300b3eae1cbe6165e9e609479485ff623d39b931168fb44ce4dbdb16a80cc054",
-                "0x197a4d10b4b6bd679dc54af6ae8dd1dc560c8bf3b4e3b994f78154d06e123c68",
-                "0x43b67a38769da0b26eec6db5408c5fe22fe6efee304feedda4c586879aec37cd",
-                "0x35749e461b1d22746cd1bb17a77b75e3296a8464f38ac40e9c9a66b7f647d454",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xf95ffceb8cda4a25b133b7707f53063b3f8477a3e3c893fe936232dd03b6fdd0",
+                "0x1eb7cd86b842f3c976acdfc4392f975125c20a8626065b1a71ccf1d89587c01b",
+                "0xee72f13dc403100c2fc8965c74708bf57b0508c4b422500801c6b9297eed29d8",
+                "0xd47a88a8cc4e97a290bd98e516883cbe586ddce56e06343044d268c898054f20",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x9a5f21b9d30052e8a08ff3ed27b285ed927a43ee",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xcbbd141fdbc3e4c3f69964dd4458c1d6a15b062cb368d0413a6c733bed809969",
-                "0xd4834bb95248ec26da92c2c0238262676b9614682c9ed2520a2b3862dad13be5",
-                "0x7362dab1cc215db93c4e4f29cc62906e1212746dce6d5f6cfeb1a4f353e78513",
-                "0x35749e461b1d22746cd1bb17a77b75e3296a8464f38ac40e9c9a66b7f647d454",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x23ef535bccee68db1aaa677328f99d2a6c34abae5c77510948b42ab87916bb50",
+                "0x84f8a7762886bc1e9d6af3fa49cb330d222fb7773edff399f6cccba8f0dd6542",
+                "0x3fa390a7b0949a48c18e03f957989d05e413fb44a762b8a180b017f42a057dc2",
+                "0xd47a88a8cc4e97a290bd98e516883cbe586ddce56e06343044d268c898054f20",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xec8e694fcab6bdac81fad257ec89fb0829e284c9",
-            "amount": 2,
+            "amount": 100,
+            "nftCount": 2,
             "proof": [
-                "0xcf645e726253e3bdd260ac57137637f61636ebcb52c7115539ac47ab0af5b139",
-                "0xd4834bb95248ec26da92c2c0238262676b9614682c9ed2520a2b3862dad13be5",
-                "0x7362dab1cc215db93c4e4f29cc62906e1212746dce6d5f6cfeb1a4f353e78513",
-                "0x35749e461b1d22746cd1bb17a77b75e3296a8464f38ac40e9c9a66b7f647d454",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x80d681870603ae851d8bdac4afd044c2e359a3039d7d35470991bead8298eb52",
+                "0x84f8a7762886bc1e9d6af3fa49cb330d222fb7773edff399f6cccba8f0dd6542",
+                "0x3fa390a7b0949a48c18e03f957989d05e413fb44a762b8a180b017f42a057dc2",
+                "0xd47a88a8cc4e97a290bd98e516883cbe586ddce56e06343044d268c898054f20",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x85c751877f5b12f260adacb883b1f50b8d6cf44c",
-            "amount": 2,
+            "amount": 84,
+            "nftCount": 2,
             "proof": [
-                "0xfdccacb1192b5a22a3f0a3021fbbabe0c784cae81a5603cc072a2e531d656548",
-                "0x65a15aec23eaa102dc971587a74a1e5d619167c773b9b0a40334715bfb666c41",
-                "0x7362dab1cc215db93c4e4f29cc62906e1212746dce6d5f6cfeb1a4f353e78513",
-                "0x35749e461b1d22746cd1bb17a77b75e3296a8464f38ac40e9c9a66b7f647d454",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xd3b5dedc742cb0a1231fa451ea51c6bbe1e919a96f58a60527e44850cf668232",
+                "0xe08a3af8a4bfa0ce3ced33a009aab641d2a7428598439e3ab123455647cca5fa",
+                "0x3fa390a7b0949a48c18e03f957989d05e413fb44a762b8a180b017f42a057dc2",
+                "0xd47a88a8cc4e97a290bd98e516883cbe586ddce56e06343044d268c898054f20",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x38afaa72fcdc31d5a13e3b65a6a61e4730f2e194",
-            "amount": 2,
+            "amount": 84,
+            "nftCount": 2,
             "proof": [
-                "0x357d417090f66c17b251ce150a883817a4697ddc7e9d23f55ff33f924ff6ff30",
-                "0x65a15aec23eaa102dc971587a74a1e5d619167c773b9b0a40334715bfb666c41",
-                "0x7362dab1cc215db93c4e4f29cc62906e1212746dce6d5f6cfeb1a4f353e78513",
-                "0x35749e461b1d22746cd1bb17a77b75e3296a8464f38ac40e9c9a66b7f647d454",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x41075dcb81126a6cba687774e1b9a5c3301f36c7b53e20419b3868b953fe2a9f",
+                "0xe08a3af8a4bfa0ce3ced33a009aab641d2a7428598439e3ab123455647cca5fa",
+                "0x3fa390a7b0949a48c18e03f957989d05e413fb44a762b8a180b017f42a057dc2",
+                "0xd47a88a8cc4e97a290bd98e516883cbe586ddce56e06343044d268c898054f20",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x86e2b121b7f9161bc2cf25ec717e14b106addfbc",
-            "amount": 2,
+            "amount": 80,
+            "nftCount": 2,
             "proof": [
-                "0x46c61260d6473fc77d78835d74c4c099c78447bf79b921efbcb0139e7f8e528b",
-                "0x79ce7075277d2a901ca9a0616f8c9780ffdddb856e95ed597b4d4524d19fc229",
-                "0x91312d374c4becc8cb0b3b96d398f1b8e5275a2a434f5f812c45f07f21ec1a43",
-                "0xa64fde50f96b145bd6e26c28530d2ee1b35141271c479437d379b6655b0c2e2a",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xb843c37dface4f9b9c50f01492e137edfdaf01b60f06278b7a3749147a3270e7",
+                "0xa4373d1ee9dace82ad24395e4d1be6452aa27b76a6461f9d2d87636685e95e10",
+                "0xdaeb6208205aa8306633fd950e191c8d1155a9b9de510f0ae876ea122d32fa40",
+                "0xff511e61e89dcc95dd5371875655aed52ff8caa95b01d4b60d1b81cbb3ce2c45",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xf17a607cfac93a3078ef0096b25048b3d1354ddd",
-            "amount": 1,
+            "amount": 67,
+            "nftCount": 1,
             "proof": [
-                "0xf0d5fd85baf5162085effd807a1507a2898832d6fad18a803dc5737aefd52fa6",
-                "0x79ce7075277d2a901ca9a0616f8c9780ffdddb856e95ed597b4d4524d19fc229",
-                "0x91312d374c4becc8cb0b3b96d398f1b8e5275a2a434f5f812c45f07f21ec1a43",
-                "0xa64fde50f96b145bd6e26c28530d2ee1b35141271c479437d379b6655b0c2e2a",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x597ac68e2e19131417fadd4bc818bd6439492df3028393f8d6d3d27ca811fb63",
+                "0xa4373d1ee9dace82ad24395e4d1be6452aa27b76a6461f9d2d87636685e95e10",
+                "0xdaeb6208205aa8306633fd950e191c8d1155a9b9de510f0ae876ea122d32fa40",
+                "0xff511e61e89dcc95dd5371875655aed52ff8caa95b01d4b60d1b81cbb3ce2c45",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x68b0f1d93917952d35bc0ee4138aee3179b669d6",
-            "amount": 1,
+            "amount": 67,
+            "nftCount": 1,
             "proof": [
-                "0x367266e8cee11a99dea44f1f07a22b9b6371f1db9c0a1a174797f4f2c024f995",
-                "0x5b6b8a3b82d9c0e9ae563875240a5657d0bbea4a73c5dc9fd047be17d4223518",
-                "0x91312d374c4becc8cb0b3b96d398f1b8e5275a2a434f5f812c45f07f21ec1a43",
-                "0xa64fde50f96b145bd6e26c28530d2ee1b35141271c479437d379b6655b0c2e2a",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xbf8335bce0c6cedfd759e6d9548bc4319435a35a780a349c38bb0664a70b6889",
+                "0x8db0e7fa22c7b4e204e8064356573b60727abb3317dde342a3fae72ed579a66c",
+                "0xdaeb6208205aa8306633fd950e191c8d1155a9b9de510f0ae876ea122d32fa40",
+                "0xff511e61e89dcc95dd5371875655aed52ff8caa95b01d4b60d1b81cbb3ce2c45",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x89379aa9f858e672e61278f2be370d00950c4800",
-            "amount": 1,
+            "amount": 60,
+            "nftCount": 1,
             "proof": [
-                "0x400628c0a40012478b19fcb0b6041c6304a2fd3ddf7c0504dc19b7e67debaec3",
-                "0x5b6b8a3b82d9c0e9ae563875240a5657d0bbea4a73c5dc9fd047be17d4223518",
-                "0x91312d374c4becc8cb0b3b96d398f1b8e5275a2a434f5f812c45f07f21ec1a43",
-                "0xa64fde50f96b145bd6e26c28530d2ee1b35141271c479437d379b6655b0c2e2a",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xab5a06f2b4fed6eab94169aac121c4af41c68917395a635df7c7dc82e4474855",
+                "0x8db0e7fa22c7b4e204e8064356573b60727abb3317dde342a3fae72ed579a66c",
+                "0xdaeb6208205aa8306633fd950e191c8d1155a9b9de510f0ae876ea122d32fa40",
+                "0xff511e61e89dcc95dd5371875655aed52ff8caa95b01d4b60d1b81cbb3ce2c45",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x7eb9ba3e73f19a7fc97b8c551be6844579a8dc63",
-            "amount": 1,
+            "amount": 60,
+            "nftCount": 1,
             "proof": [
-                "0xf401c0412a10668d0acb9caaea87db78a61bd6d16bc4b371a24c5addefc49d10",
-                "0xbfa5503bce043c4fff77bc09bdd23758fd9599cdad88d67fe123183e4a3dc32a",
-                "0xe93fdcd259f750b90424f9a1e341f200d6f55a200eba333a01fda608e55b4587",
-                "0xa64fde50f96b145bd6e26c28530d2ee1b35141271c479437d379b6655b0c2e2a",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xbba78c9e238c5dddde356a08073bdf78ee9170181e74725a3423cd6b17c3f71e",
+                "0x10df9efda47a2ca4253736346f0f14f2a727b0c8f8836e21622a21bbcc443e51",
+                "0xf7dcf20338ba3c8ea27deceb0565a3a841d37ffdaed3c8de5edaf675bacfbb0b",
+                "0xff511e61e89dcc95dd5371875655aed52ff8caa95b01d4b60d1b81cbb3ce2c45",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x6c939869cae44445c45f943eac89f964d5578b88",
-            "amount": 1,
+            "amount": 60,
+            "nftCount": 1,
             "proof": [
-                "0x74fc63d5eddd55709c8511a5cc4b3d22ad6039deeb4d7bf43a69ff75d704aa4d",
-                "0xbfa5503bce043c4fff77bc09bdd23758fd9599cdad88d67fe123183e4a3dc32a",
-                "0xe93fdcd259f750b90424f9a1e341f200d6f55a200eba333a01fda608e55b4587",
-                "0xa64fde50f96b145bd6e26c28530d2ee1b35141271c479437d379b6655b0c2e2a",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xbcf273f0dd9e5c72340cb391990c7700b29892005426cc09dec6fa55696a0245",
+                "0x10df9efda47a2ca4253736346f0f14f2a727b0c8f8836e21622a21bbcc443e51",
+                "0xf7dcf20338ba3c8ea27deceb0565a3a841d37ffdaed3c8de5edaf675bacfbb0b",
+                "0xff511e61e89dcc95dd5371875655aed52ff8caa95b01d4b60d1b81cbb3ce2c45",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x701484126d2B9785915004AbB4D4f6cce0559FE9",
-            "amount": 1,
+            "amount": 50,
+            "nftCount": 1,
             "proof": [
-                "0x7b413776253da563bdf5592b6bfb1fcfb2200fddad5030e54d5fe0940d2c4b35",
-                "0x4c914e21953ddb28af73baa158938f0b94b5135874d0f14a07408c6c1d40cfa0",
-                "0xe93fdcd259f750b90424f9a1e341f200d6f55a200eba333a01fda608e55b4587",
-                "0xa64fde50f96b145bd6e26c28530d2ee1b35141271c479437d379b6655b0c2e2a",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xced3655ee70c49afe271b674d74af3f2621d6ad4ff1db03a082d548682adb1c5",
+                "0x6e6c1ea642e474012e8c8f0baae70a2fd69836d709a1c4226b67700d5e0a9022",
+                "0xf7dcf20338ba3c8ea27deceb0565a3a841d37ffdaed3c8de5edaf675bacfbb0b",
+                "0xff511e61e89dcc95dd5371875655aed52ff8caa95b01d4b60d1b81cbb3ce2c45",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x36f2c448003b6771a6962b5e709c2edbbafd19db",
-            "amount": 1,
+            "amount": 44,
+            "nftCount": 1,
             "proof": [
-                "0xf1ea906bf57bc0c4d48609e5bcea1d84fca89d452933bebc34fb9f4a42dc4cdf",
-                "0x4c914e21953ddb28af73baa158938f0b94b5135874d0f14a07408c6c1d40cfa0",
-                "0xe93fdcd259f750b90424f9a1e341f200d6f55a200eba333a01fda608e55b4587",
-                "0xa64fde50f96b145bd6e26c28530d2ee1b35141271c479437d379b6655b0c2e2a",
-                "0x06737c30699738e1c6825ada5b8bd00269385fcd646d4757d669420c669c120b",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x2341b160fe58f5ec56c2fb4a0840b5acf884f4f5c6f38ed5397d311e83e14962",
+                "0x6e6c1ea642e474012e8c8f0baae70a2fd69836d709a1c4226b67700d5e0a9022",
+                "0xf7dcf20338ba3c8ea27deceb0565a3a841d37ffdaed3c8de5edaf675bacfbb0b",
+                "0xff511e61e89dcc95dd5371875655aed52ff8caa95b01d4b60d1b81cbb3ce2c45",
+                "0xa78a7d5ceb8dfb5d099bb8d926ea6fa2fb8d54f5997589e4e9ead53861fe697c",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xdf1c52063bb13462b693c17d39a524b1c726bf4b",
-            "amount": 1,
+            "amount": 42,
+            "nftCount": 1,
             "proof": [
-                "0x4b516731ee34fb75e75616ad19a9ccf3c760f8c18efcfe0c9e5963a905922dc6",
-                "0x3c7a75325956a2f8c50a11643ccacbfe6df99f71e997a1fb4951e07d005bb097",
-                "0xb490c977fb090187d0a997b5845af6a0570fb954eb1a0bfbfbb16c0dbe2528aa",
-                "0x12cd9dd8abec4304f7119ef1c8446047041e93ceb1513fd798fb5f57e20b1238",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x9b6eba5d7a356bd4b7ec40ced305aebebaf756ff184384ffd38ef0465d2f9b70",
+                "0x2ededb6e6532f648d33149dedc0daaa12a1466f780a214bb2e54887af6346250",
+                "0x93896d7dfb4b23de7ffa56608643f35c52f116547ab8fdc49264eff8e79d8b0a",
+                "0x97122601602ee126665d0d1c6e86a214122fb05980e537c31c2adf7ca7843cb7",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x03e1fbebbb63c03ae8160de9bed4f9789fcb9c52",
-            "amount": 1,
+            "amount": 40,
+            "nftCount": 1,
             "proof": [
-                "0xd38b72aa9d9fc3340789f82fe98ab74ccbc60d41d3b06e6ef87f152e67f92e9e",
-                "0x3c7a75325956a2f8c50a11643ccacbfe6df99f71e997a1fb4951e07d005bb097",
-                "0xb490c977fb090187d0a997b5845af6a0570fb954eb1a0bfbfbb16c0dbe2528aa",
-                "0x12cd9dd8abec4304f7119ef1c8446047041e93ceb1513fd798fb5f57e20b1238",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x2ee507531ec821cd78befed83371cea6f6ce2cec6e56361f07ea05e2b0d70c92",
+                "0x2ededb6e6532f648d33149dedc0daaa12a1466f780a214bb2e54887af6346250",
+                "0x93896d7dfb4b23de7ffa56608643f35c52f116547ab8fdc49264eff8e79d8b0a",
+                "0x97122601602ee126665d0d1c6e86a214122fb05980e537c31c2adf7ca7843cb7",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xe64085129573169fcaafa05983a3b47d2c525a1e",
-            "amount": 1,
+            "amount": 40,
+            "nftCount": 1,
             "proof": [
-                "0x71b547a5e761fe009426892b73226d1f88e9a2343f266bad807df316e478bcd0",
-                "0x605e4bcb5faf0c5b428551130a9d18638afa4d10bc50d0105c17b34447c04a64",
-                "0xb490c977fb090187d0a997b5845af6a0570fb954eb1a0bfbfbb16c0dbe2528aa",
-                "0x12cd9dd8abec4304f7119ef1c8446047041e93ceb1513fd798fb5f57e20b1238",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x45d1cd3deea09dfe50d15ba7eb724ca31e238fe8bbb26acee03f47758db4bf13",
+                "0x616fcae1328b2a85c78b81ce365a27eb31c7bcb1f21c70cec36e0c51720a0675",
+                "0x93896d7dfb4b23de7ffa56608643f35c52f116547ab8fdc49264eff8e79d8b0a",
+                "0x97122601602ee126665d0d1c6e86a214122fb05980e537c31c2adf7ca7843cb7",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xd79d8b339c4327067aa143c31ee8f2525e19386d",
-            "amount": 1,
+            "amount": 40,
+            "nftCount": 1,
             "proof": [
-                "0xd39cb46462a70517dce4c2802940b4316653740d8616e796f8e6134154628211",
-                "0x605e4bcb5faf0c5b428551130a9d18638afa4d10bc50d0105c17b34447c04a64",
-                "0xb490c977fb090187d0a997b5845af6a0570fb954eb1a0bfbfbb16c0dbe2528aa",
-                "0x12cd9dd8abec4304f7119ef1c8446047041e93ceb1513fd798fb5f57e20b1238",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x0f5188fc6da9e5f50378dbd0ae103a7075096067bbc1228445ffe19a5a11331e",
+                "0x616fcae1328b2a85c78b81ce365a27eb31c7bcb1f21c70cec36e0c51720a0675",
+                "0x93896d7dfb4b23de7ffa56608643f35c52f116547ab8fdc49264eff8e79d8b0a",
+                "0x97122601602ee126665d0d1c6e86a214122fb05980e537c31c2adf7ca7843cb7",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xa6d8bdd2f1eacea10b47395b48939673afa231c9",
-            "amount": 1,
+            "amount": 40,
+            "nftCount": 1,
             "proof": [
-                "0xd88590ad5ade05f568544dfb728a18aa3037852f778cd044915aa75e34ada6fd",
-                "0xe1e0ea84bbbdb1fb3b2fd334d21dd523811bf0f10dbbb3cf4cbb3fc2d324ae1c",
-                "0xf3f971014eacc8ad510b10abcb427ce9a721e60b3a3495d224811ef81734c5f9",
-                "0x12cd9dd8abec4304f7119ef1c8446047041e93ceb1513fd798fb5f57e20b1238",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x88c69d8123c697d3409168817398a4f31d093d33bf4ae91b929e4286252e1115",
+                "0x94eb12b53f09ddebb849a0b6d708862c86d2b4342556670f554b19ae7380c2e8",
+                "0xd4f2ccb2c8fa37dda7edf8929c97f7b7a96ab3c587996a003063a6ba6beaa255",
+                "0x97122601602ee126665d0d1c6e86a214122fb05980e537c31c2adf7ca7843cb7",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xddeae61bf5fd05594542dcdc973f5eb85c74a6e9",
-            "amount": 1,
+            "amount": 40,
+            "nftCount": 1,
             "proof": [
-                "0xdf687037660526630916b96db1581362ef5e5bb4c2bb9cb148ffe0c58bbcb08d",
-                "0xe1e0ea84bbbdb1fb3b2fd334d21dd523811bf0f10dbbb3cf4cbb3fc2d324ae1c",
-                "0xf3f971014eacc8ad510b10abcb427ce9a721e60b3a3495d224811ef81734c5f9",
-                "0x12cd9dd8abec4304f7119ef1c8446047041e93ceb1513fd798fb5f57e20b1238",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x7004bc440b5e46b7bd7d6d36698614a9d15031568eafcb2f0494652d2e8b3123",
+                "0x94eb12b53f09ddebb849a0b6d708862c86d2b4342556670f554b19ae7380c2e8",
+                "0xd4f2ccb2c8fa37dda7edf8929c97f7b7a96ab3c587996a003063a6ba6beaa255",
+                "0x97122601602ee126665d0d1c6e86a214122fb05980e537c31c2adf7ca7843cb7",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x7580a7ed2195882be3e021786c0e8c3066cf4ec5",
-            "amount": 1,
+            "amount": 40,
+            "nftCount": 1,
             "proof": [
-                "0x473bfcdf4a29ed7692482d1c2926b7e5787321a3ed25d77954a897c5e72c12ac",
-                "0xf9b404e43ccae31daba4efbb6125ff5fb70617e6dc7a53b899093c9d421fd022",
-                "0xf3f971014eacc8ad510b10abcb427ce9a721e60b3a3495d224811ef81734c5f9",
-                "0x12cd9dd8abec4304f7119ef1c8446047041e93ceb1513fd798fb5f57e20b1238",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x680bd955cedec5ad21b684bb1bbfb3d5fe016ce8855268ef0b04e0219a20868e",
+                "0x7dbf9caea692723a952485c0b05fe3129efc926e81bd1c7ee6ba3c6deb9e717b",
+                "0xd4f2ccb2c8fa37dda7edf8929c97f7b7a96ab3c587996a003063a6ba6beaa255",
+                "0x97122601602ee126665d0d1c6e86a214122fb05980e537c31c2adf7ca7843cb7",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x9e0a23bb4823d81f6b52e4ef34fb309943bdb317",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0x141238cce126efd355301a14ecc923ef5904c1fb9395385d472041d64a5b59ed",
-                "0xf9b404e43ccae31daba4efbb6125ff5fb70617e6dc7a53b899093c9d421fd022",
-                "0xf3f971014eacc8ad510b10abcb427ce9a721e60b3a3495d224811ef81734c5f9",
-                "0x12cd9dd8abec4304f7119ef1c8446047041e93ceb1513fd798fb5f57e20b1238",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x0695c4cffce3d8362a208f702d30ecd7ffc1caa7e582b2e067d2b8f7ab158478",
+                "0x7dbf9caea692723a952485c0b05fe3129efc926e81bd1c7ee6ba3c6deb9e717b",
+                "0xd4f2ccb2c8fa37dda7edf8929c97f7b7a96ab3c587996a003063a6ba6beaa255",
+                "0x97122601602ee126665d0d1c6e86a214122fb05980e537c31c2adf7ca7843cb7",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x3cd7fafdbf362ac61a39a488f8fd744bb2f2959d",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0xa9b2361705c550d68caa0a23e7eea7b6944fd9ba9f8ebb028eb5228629db67b8",
-                "0x365353ced8e378d4dbc7a0c98f0bcd35375f5b392cc7464af7177f447169817c",
-                "0xa3d76b1f1cd831f9b5fa33adb015b71499a2586bd5e12e5ecb82bf9cdd0dcf80",
-                "0x4e4a5f5d6a753c646353eca6884be32385f6c9c72832aab1ca20c5027859c33a",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x29d8ba40ac86134457b921dc467e57a3c29fda60fd47fdd33164295e322fe16c",
+                "0x26fb5c8fb477334b125f0b13735ce8052ff66aab88dee1f3c21ea5aaa73e8bdb",
+                "0x7117a4ef9f4d3e6de940e32ac0b758880cf54a52317101d1ffba2431586571f4",
+                "0x9dbaf4f4101d81b2a013fea8203e4e0d355f3e929b34dc0e7e2e7cb1d2a67346",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x82ddc9b236309a5f26cb0872ed004e82ea4ea0e2",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0x0b8f9e5ce1f77ac42e6460e0d2e6843e23d54f6db9a09afc359a9a6f632dcd2f",
-                "0x365353ced8e378d4dbc7a0c98f0bcd35375f5b392cc7464af7177f447169817c",
-                "0xa3d76b1f1cd831f9b5fa33adb015b71499a2586bd5e12e5ecb82bf9cdd0dcf80",
-                "0x4e4a5f5d6a753c646353eca6884be32385f6c9c72832aab1ca20c5027859c33a",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x43939a0f2ca2e19a5ea533d560e4ae77bfbe37f2c8f9d4a84cacaec20329e75c",
+                "0x26fb5c8fb477334b125f0b13735ce8052ff66aab88dee1f3c21ea5aaa73e8bdb",
+                "0x7117a4ef9f4d3e6de940e32ac0b758880cf54a52317101d1ffba2431586571f4",
+                "0x9dbaf4f4101d81b2a013fea8203e4e0d355f3e929b34dc0e7e2e7cb1d2a67346",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xf62b5332e2766855e94091f1790e921bacdd5af6",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0xfd6c681b8842dba40b040aaf76c9cc714f5bc2f7009129ce9a57fa4ca389431e",
-                "0xeb28123c1ba40050ba734857bad9a068d6b6a9e007edd117ee8ee3135537a32f",
-                "0xa3d76b1f1cd831f9b5fa33adb015b71499a2586bd5e12e5ecb82bf9cdd0dcf80",
-                "0x4e4a5f5d6a753c646353eca6884be32385f6c9c72832aab1ca20c5027859c33a",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xeca3aa44316a3968444cbd378dc4abc8c3e9f94463f488df33ab77aad759a6c9",
+                "0x5373974ea8739241d27c1a82285a7c9586daf4d4cdc0f24a50749d9c4dd584cf",
+                "0x7117a4ef9f4d3e6de940e32ac0b758880cf54a52317101d1ffba2431586571f4",
+                "0x9dbaf4f4101d81b2a013fea8203e4e0d355f3e929b34dc0e7e2e7cb1d2a67346",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xec2d09be09b3a53ddd719bb2cb26173a3fecbd08",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0x700427460428a5a57d2f38e0095c265042895c208a35d5541acb409aacb859d6",
-                "0xeb28123c1ba40050ba734857bad9a068d6b6a9e007edd117ee8ee3135537a32f",
-                "0xa3d76b1f1cd831f9b5fa33adb015b71499a2586bd5e12e5ecb82bf9cdd0dcf80",
-                "0x4e4a5f5d6a753c646353eca6884be32385f6c9c72832aab1ca20c5027859c33a",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xf6d91163e0ecc6e868b716b31c3fb550893c9b19a979b92644440c70c859cc31",
+                "0x5373974ea8739241d27c1a82285a7c9586daf4d4cdc0f24a50749d9c4dd584cf",
+                "0x7117a4ef9f4d3e6de940e32ac0b758880cf54a52317101d1ffba2431586571f4",
+                "0x9dbaf4f4101d81b2a013fea8203e4e0d355f3e929b34dc0e7e2e7cb1d2a67346",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xdb879ec83669a0e619e19db905321401bf828782",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0x4db2bdc2e1a63e8f4953b9214948d8067a187a8da79d3490064a563fe524706e",
-                "0xb612a1bdbd1f686d878c74aa0c296d56f60ae7a8f0fbe2a54a158e33ad031545",
-                "0x5dfed1ac0186e8ab1693f5737509b58c2fbcd0b8e9d5819ef33fe6ebb55dcedd",
-                "0x4e4a5f5d6a753c646353eca6884be32385f6c9c72832aab1ca20c5027859c33a",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xe9b9e5d1bd45d1cac6c341b5b99e08f6d92a441bca125d675d0a33de618a62c9",
+                "0x0c56f5e7d66957566b88d374d407c475df5b5970a9184bec81c65bb863bee3a8",
+                "0xbf10461a7316b9e7c7386523502c516157b76b5456994ff96d68b013babdb9fd",
+                "0x9dbaf4f4101d81b2a013fea8203e4e0d355f3e929b34dc0e7e2e7cb1d2a67346",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xb91be2795f5aea1b1888e0d4a10ca3ae045f73b8",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0x7f00a081bfa5a13dbcc323d674c41679b4cfac49a03d04ace9069e345ac93b3e",
-                "0xb612a1bdbd1f686d878c74aa0c296d56f60ae7a8f0fbe2a54a158e33ad031545",
-                "0x5dfed1ac0186e8ab1693f5737509b58c2fbcd0b8e9d5819ef33fe6ebb55dcedd",
-                "0x4e4a5f5d6a753c646353eca6884be32385f6c9c72832aab1ca20c5027859c33a",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xd0df896eb2745f8ba6a6d617f22aa732ab2924e3ffdf2ca8504f620b9c8604a3",
+                "0x0c56f5e7d66957566b88d374d407c475df5b5970a9184bec81c65bb863bee3a8",
+                "0xbf10461a7316b9e7c7386523502c516157b76b5456994ff96d68b013babdb9fd",
+                "0x9dbaf4f4101d81b2a013fea8203e4e0d355f3e929b34dc0e7e2e7cb1d2a67346",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xc6370b5352cd76d57991cffb0bb06db691063dfd",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0x1e9398ca10f1460a9527ec32f4953ac94e038ff00986020eb34c8235b2d2fa7e",
-                "0x2446bf3643387892f241a50e0de7d8b2a0bbefc7e5a409bc44fd36c3ebc0ba3d",
-                "0x5dfed1ac0186e8ab1693f5737509b58c2fbcd0b8e9d5819ef33fe6ebb55dcedd",
-                "0x4e4a5f5d6a753c646353eca6884be32385f6c9c72832aab1ca20c5027859c33a",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0xc5b7d2a19d935d0c7ae8a99b2b31418d46c5bfa8addce45983200a905aa8c0b0",
+                "0xcb1247ca6c7d406ed5b17445c1afa19b745827ac41988127a013be97e33a0070",
+                "0xbf10461a7316b9e7c7386523502c516157b76b5456994ff96d68b013babdb9fd",
+                "0x9dbaf4f4101d81b2a013fea8203e4e0d355f3e929b34dc0e7e2e7cb1d2a67346",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0xf232e219eca3bc643a88ad519c3bf291d6d0807a",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0xe5eaa62743148bb311b9d4af1f454aca992a3a121795562292d8c5f10b1a2230",
-                "0x2446bf3643387892f241a50e0de7d8b2a0bbefc7e5a409bc44fd36c3ebc0ba3d",
-                "0x5dfed1ac0186e8ab1693f5737509b58c2fbcd0b8e9d5819ef33fe6ebb55dcedd",
-                "0x4e4a5f5d6a753c646353eca6884be32385f6c9c72832aab1ca20c5027859c33a",
-                "0x94860fc1544e640f26fce849d92b23d38c5984b6107c58e806d53ec6d7954f84",
-                "0x5eadabf7968babb1bef21eeb25d64924114600d3056eef2dfdf7949f3cd77acc",
-                "0x15aee5e99cb4899690c0d2fb3775133c1dcf9f069ecfb54d459be49f840bb5dc"
+                "0x0e03be484c7e9845223b70890ded2301d2479ffa8d192a70006f5c34dabfc34a",
+                "0xcb1247ca6c7d406ed5b17445c1afa19b745827ac41988127a013be97e33a0070",
+                "0xbf10461a7316b9e7c7386523502c516157b76b5456994ff96d68b013babdb9fd",
+                "0x9dbaf4f4101d81b2a013fea8203e4e0d355f3e929b34dc0e7e2e7cb1d2a67346",
+                "0xed7cbccf3cfc9730a4fa9c494d8b0a7e3a96a3d748c098a1dc9c03249fdcdb0f",
+                "0xfeedbb85cbf73cbe47604880906876040258e337674ea5e729c90b98d50d8dc4",
+                "0x55af7f629d336a578315e9b690c3f9b0f9ce687fc0e3cbbbcb4fbf8c9731da47"
             ]
         },
         {
             "account": "0x75967771b42742ac0d383d8c0dbb8f7178578998",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0xba63a7a78751d9277e3ac25179fe2689aedcb510f152cc24ef306cc7404b1a2f",
-                "0x77d93ebeb54704dde21c2e0e035c58145d45afa49a20455f87bf0448d1200ed4",
-                "0x38f6200eb3201fccaa40dfc0a8f6e2ff33c4b374d11d3197a0018ec800ecd565",
-                "0x9ddf086ffb92abd063970310874433c42917cd69f0394dc43475bca398206cf0",
-                "0x89e1a4d4e7fb8f73162e15e425a65d7db845af57d704080837b4cb5900a04a62"
+                "0xbdfa61c16c84eecb6856009cd8059ffbb9efe790af930b9e16ac65aca3abb973",
+                "0xa18e8e92c300b9cf0962680abc56969ad31bb56f14b1caa19392f6aeea3a6823",
+                "0xad886b459db2fd5a8b5079f0cc65ef0269caeaef8ed7a56155c3b6372b8a8ca8",
+                "0x4b25c265cac335b5d09090897eafa4b447848926bb2e46ba4301e1d8c6ba1995",
+                "0x58bc62cd71144eca718e156c92f85bb2dfe38e62f0fe28ed4e3ae15eda21a15b"
             ]
         },
         {
             "account": "0xc255b2324d572913ed95c5907cbcdb24af713d70",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0xba394f075d09c57e116e7b9aa002b9c661d468fff2644bf9dac1c515f6dc0fa1",
-                "0x77d93ebeb54704dde21c2e0e035c58145d45afa49a20455f87bf0448d1200ed4",
-                "0x38f6200eb3201fccaa40dfc0a8f6e2ff33c4b374d11d3197a0018ec800ecd565",
-                "0x9ddf086ffb92abd063970310874433c42917cd69f0394dc43475bca398206cf0",
-                "0x89e1a4d4e7fb8f73162e15e425a65d7db845af57d704080837b4cb5900a04a62"
+                "0x97259d6ffef718021dd201aac73d453c189eb9042e21a2e027efd8a14ffe33d0",
+                "0xa18e8e92c300b9cf0962680abc56969ad31bb56f14b1caa19392f6aeea3a6823",
+                "0xad886b459db2fd5a8b5079f0cc65ef0269caeaef8ed7a56155c3b6372b8a8ca8",
+                "0x4b25c265cac335b5d09090897eafa4b447848926bb2e46ba4301e1d8c6ba1995",
+                "0x58bc62cd71144eca718e156c92f85bb2dfe38e62f0fe28ed4e3ae15eda21a15b"
             ]
         },
         {
             "account": "0x8f10f442b90b5c73097e99456a3e9605b3a79f70",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0x483eb97d563f19c48705a1ee981722632177673ae1a423fed5f047869a4d8c63",
-                "0x37268317557e34645f05b1906c62c5aba613be0bd1f485ca85ceafe4352f1a06",
-                "0x38f6200eb3201fccaa40dfc0a8f6e2ff33c4b374d11d3197a0018ec800ecd565",
-                "0x9ddf086ffb92abd063970310874433c42917cd69f0394dc43475bca398206cf0",
-                "0x89e1a4d4e7fb8f73162e15e425a65d7db845af57d704080837b4cb5900a04a62"
+                "0x046d90d06723a43ddaca37065e602f005209fecb3a9cc46479baafd50e28b660",
+                "0x1a1ae9799cb63ae3118dcef64762c8a49ab1dba7bd678b5308563ccb5176d51a",
+                "0xad886b459db2fd5a8b5079f0cc65ef0269caeaef8ed7a56155c3b6372b8a8ca8",
+                "0x4b25c265cac335b5d09090897eafa4b447848926bb2e46ba4301e1d8c6ba1995",
+                "0x58bc62cd71144eca718e156c92f85bb2dfe38e62f0fe28ed4e3ae15eda21a15b"
             ]
         },
         {
             "account": "0xc8e40692189202f04fbed0790d229f65c66bc0e8",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0x302ac35f18dd19813d398cd728100d1f75910eca2460abac8b42a1c1b42d9fa4",
-                "0x37268317557e34645f05b1906c62c5aba613be0bd1f485ca85ceafe4352f1a06",
-                "0x38f6200eb3201fccaa40dfc0a8f6e2ff33c4b374d11d3197a0018ec800ecd565",
-                "0x9ddf086ffb92abd063970310874433c42917cd69f0394dc43475bca398206cf0",
-                "0x89e1a4d4e7fb8f73162e15e425a65d7db845af57d704080837b4cb5900a04a62"
+                "0x83de6f188c6265ef5fb5e4d5ed7ebfeaa1234b8ad8edbc9bcd050b2d1adbb31f",
+                "0x1a1ae9799cb63ae3118dcef64762c8a49ab1dba7bd678b5308563ccb5176d51a",
+                "0xad886b459db2fd5a8b5079f0cc65ef0269caeaef8ed7a56155c3b6372b8a8ca8",
+                "0x4b25c265cac335b5d09090897eafa4b447848926bb2e46ba4301e1d8c6ba1995",
+                "0x58bc62cd71144eca718e156c92f85bb2dfe38e62f0fe28ed4e3ae15eda21a15b"
             ]
         },
         {
             "account": "0xf23db478d2dbaa0ac16bd5834277b73de896eafd",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0xe1ffdd69fe5d8e2ddf0430f652938457be499b4d8594574ec4f0abd064a28f9a",
-                "0x2d7ef1d245e3ccb07306517d8072058e2ab34e479225d03e6c01cf3c51cf5afc",
-                "0x395af72448b5a50241dc02f1d54729371f407ef399f4ee8dcf9ba187c62f27ec",
-                "0x9ddf086ffb92abd063970310874433c42917cd69f0394dc43475bca398206cf0",
-                "0x89e1a4d4e7fb8f73162e15e425a65d7db845af57d704080837b4cb5900a04a62"
+                "0x0800cda9f961fd78d736e198480d3bcbc95a2f13e33626a09f1071622b3f65a0",
+                "0xc38fcc599b604c1d417ee391b1092a04625dc7522e33a903d88a773dc42ec973",
+                "0x0818afa2a6a79da15590e262d609bc979adab0a2a10407b90fce6c56ea1bcdb2",
+                "0x4b25c265cac335b5d09090897eafa4b447848926bb2e46ba4301e1d8c6ba1995",
+                "0x58bc62cd71144eca718e156c92f85bb2dfe38e62f0fe28ed4e3ae15eda21a15b"
             ]
         },
         {
             "account": "0x2049ebe44406075fe8a5432cdae2bc08b0d386c7",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0xf0afb54e37a3fa7b8e950be9ede556f204530a63dd0c479aa8029db90af961fe",
-                "0x2d7ef1d245e3ccb07306517d8072058e2ab34e479225d03e6c01cf3c51cf5afc",
-                "0x395af72448b5a50241dc02f1d54729371f407ef399f4ee8dcf9ba187c62f27ec",
-                "0x9ddf086ffb92abd063970310874433c42917cd69f0394dc43475bca398206cf0",
-                "0x89e1a4d4e7fb8f73162e15e425a65d7db845af57d704080837b4cb5900a04a62"
+                "0x0fdd0c947c0dd7a1e41c0cc35862e98b7058151acc2eb3ebcd05efc122c08d2c",
+                "0xc38fcc599b604c1d417ee391b1092a04625dc7522e33a903d88a773dc42ec973",
+                "0x0818afa2a6a79da15590e262d609bc979adab0a2a10407b90fce6c56ea1bcdb2",
+                "0x4b25c265cac335b5d09090897eafa4b447848926bb2e46ba4301e1d8c6ba1995",
+                "0x58bc62cd71144eca718e156c92f85bb2dfe38e62f0fe28ed4e3ae15eda21a15b"
             ]
         },
         {
             "account": "0x5546092bd4af029a50cb9d266c1104b657fdb124",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0xdc0b85da21ab422a523072e4370f915f4666002b1af185754a1bafffed07e0eb",
-                "0x2f10be4187637d1c57bab5ca618529a1445406698152d320c75bba0abc3dbe86",
-                "0x395af72448b5a50241dc02f1d54729371f407ef399f4ee8dcf9ba187c62f27ec",
-                "0x9ddf086ffb92abd063970310874433c42917cd69f0394dc43475bca398206cf0",
-                "0x89e1a4d4e7fb8f73162e15e425a65d7db845af57d704080837b4cb5900a04a62"
+                "0xae019d2a8cda1fcdff0d180ee7a79e55effd1d160351e3551d90b02c5c2c9f24",
+                "0xfe6d97f4672d0725cabae27dfe9df4c68a7dba1bd7ba8994ffd5fddaf8e362c2",
+                "0x0818afa2a6a79da15590e262d609bc979adab0a2a10407b90fce6c56ea1bcdb2",
+                "0x4b25c265cac335b5d09090897eafa4b447848926bb2e46ba4301e1d8c6ba1995",
+                "0x58bc62cd71144eca718e156c92f85bb2dfe38e62f0fe28ed4e3ae15eda21a15b"
             ]
         },
         {
             "account": "0x0e21af8338f8ea20880cb831d8813c20b8806843",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0x09ebbdd49ed43dadae9e1f66312e61a9207f5afcdad4a1cc23becb5b65e215d1",
-                "0x2f10be4187637d1c57bab5ca618529a1445406698152d320c75bba0abc3dbe86",
-                "0x395af72448b5a50241dc02f1d54729371f407ef399f4ee8dcf9ba187c62f27ec",
-                "0x9ddf086ffb92abd063970310874433c42917cd69f0394dc43475bca398206cf0",
-                "0x89e1a4d4e7fb8f73162e15e425a65d7db845af57d704080837b4cb5900a04a62"
+                "0x5f478a3324d03d5cc128b86f3059e9bffb18935153eed0509a031ab34e595257",
+                "0xfe6d97f4672d0725cabae27dfe9df4c68a7dba1bd7ba8994ffd5fddaf8e362c2",
+                "0x0818afa2a6a79da15590e262d609bc979adab0a2a10407b90fce6c56ea1bcdb2",
+                "0x4b25c265cac335b5d09090897eafa4b447848926bb2e46ba4301e1d8c6ba1995",
+                "0x58bc62cd71144eca718e156c92f85bb2dfe38e62f0fe28ed4e3ae15eda21a15b"
             ]
         },
         {
             "account": "0x854f5c4973b42818d28d3cf009566884d3b7892c",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0xf4e315a19e5e9c3e30689e16030ea58e512a1900a7bca95f733ee494558606f3",
-                "0x60f3d02cfacc0ef751240b2fa99b07b09f0c31b83921b86a78881ab4d9f10176",
-                "0x316f810cdfc3694068c3f9e6112c2d3c1e2a3e3322b95522441ea6bedf5a0948",
-                "0x89e1a4d4e7fb8f73162e15e425a65d7db845af57d704080837b4cb5900a04a62"
+                "0x21079e9284f49b92752efb4b10f90ec7249025f32cf57d349ecf0d4673b9d2dd",
+                "0x95f585bb80d4b1583bd187846cd1c9f55c3cd8ea35f6b8460a8442f825b6cb2f",
+                "0x28f0679dede3d60c89721224b1e4e104635802cffe82905e27335f827a65cf74",
+                "0x58bc62cd71144eca718e156c92f85bb2dfe38e62f0fe28ed4e3ae15eda21a15b"
             ]
         },
         {
             "account": "0x95c6970c2921d39474973d120ab700c25fa41068",
-            "amount": 1,
+            "amount": 20,
+            "nftCount": 1,
             "proof": [
-                "0x4d5527e6cb84e0481ed599130bf159406008da3e866e228d6d52adc3e824b0bc",
-                "0x60f3d02cfacc0ef751240b2fa99b07b09f0c31b83921b86a78881ab4d9f10176",
-                "0x316f810cdfc3694068c3f9e6112c2d3c1e2a3e3322b95522441ea6bedf5a0948",
-                "0x89e1a4d4e7fb8f73162e15e425a65d7db845af57d704080837b4cb5900a04a62"
+                "0x1b3e0b59f05f6ce8e5c92fa283c573278385eee40f8b676c9062b61404271f6c",
+                "0x95f585bb80d4b1583bd187846cd1c9f55c3cd8ea35f6b8460a8442f825b6cb2f",
+                "0x28f0679dede3d60c89721224b1e4e104635802cffe82905e27335f827a65cf74",
+                "0x58bc62cd71144eca718e156c92f85bb2dfe38e62f0fe28ed4e3ae15eda21a15b"
             ]
         },
         {
             "account": "0x649C8F63CADeb3D91bdBfc88c8e3b5152647C502",
-            "amount": 4,
+            "amount": 4000,
+            "nftCount": 4,
             "proof": [
-                "0x4c30f12ca6514b27bed3618dd02c2b216d43cd1863851d8dd1d85834d13cbbe9",
-                "0x316f810cdfc3694068c3f9e6112c2d3c1e2a3e3322b95522441ea6bedf5a0948",
-                "0x89e1a4d4e7fb8f73162e15e425a65d7db845af57d704080837b4cb5900a04a62"
+                "0xe0ea5ba05acdb27b51c8f71ad8119d879ae1bea51468b39b971c4e4db658ebf9",
+                "0x28f0679dede3d60c89721224b1e4e104635802cffe82905e27335f827a65cf74",
+                "0x58bc62cd71144eca718e156c92f85bb2dfe38e62f0fe28ed4e3ae15eda21a15b"
             ]
         }
     ],
-    "root": "089e59fd8b52133e727f246681b257a03eb6ba8e8cbd015709f158bfdf0e6bc8"
+    "root": "085de441762fc9f88d3013f92285a586de422ca6b0f87703cbae8fb79602994f"
 }
